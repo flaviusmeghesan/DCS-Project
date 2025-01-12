@@ -1,0 +1,4158 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="OP_CANTEMIR">
+            <graphics>
+                <position x="1515.0" y="375.0"/>
+            </graphics>
+            <name>
+                <value>OP_CANTEMIR</value>
+                <graphics>
+                    <offset x="12.857142857142852" y="-9.285714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP_SERBANVODA">
+            <graphics>
+                <position x="1200.0" y="1635.0"/>
+            </graphics>
+            <name>
+                <value>OP_SERBANVODA</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP_SERBANVODA_BUS">
+            <graphics>
+                <position x="1185.0" y="1365.0"/>
+            </graphics>
+            <name>
+                <value>OP_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP_SINCAI">
+            <graphics>
+                <position x="2775.0" y="615.0"/>
+            </graphics>
+            <name>
+                <value>OP_SINCAI</value>
+                <graphics>
+                    <offset x="91.42857142857149" y="-9.285714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP_SINCAINORD_BUS">
+            <graphics>
+                <position x="2550.0" y="855.0"/>
+            </graphics>
+            <name>
+                <value>OP_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="142.85714285714278" y="-4.285714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP_TINERETULUI">
+            <graphics>
+                <position x="2295.0" y="1860.0"/>
+            </graphics>
+            <name>
+                <value>OP_TINERETULUI</value>
+                <graphics>
+                    <offset x="87.85714285714295" y="-12.857142857142849"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_CANTEMIR">
+            <graphics>
+                <position x="1770.0" y="285.0"/>
+            </graphics>
+            <name>
+                <value>P_A_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_SERBANVODA">
+            <graphics>
+                <position x="1080.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>P_A_SERBANVODA</value>
+                <graphics>
+                    <offset x="12.857142857142854" y="-11.428571428571425"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_SERBANVODA_BUS">
+            <graphics>
+                <position x="1065.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>P_A_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="39.99999999999997" y="-9.285714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_SINCAI">
+            <graphics>
+                <position x="2940.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>P_A_SINCAI</value>
+                <graphics>
+                    <offset x="69.99999999999997" y="-12.857142857142858"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_SINCAINORD_BUS">
+            <graphics>
+                <position x="3480.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>P_A_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="71.25" y="-13.571428571428566"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_TINERETULUI">
+            <graphics>
+                <position x="2055.0" y="2040.0"/>
+            </graphics>
+            <name>
+                <value>P_A_TINERETULUI</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A1_SINCAINORD_BUS">
+            <graphics>
+                <position x="2745.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>P_A1_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="67.14285714285714" y="-9.285714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_B_CANTEMIR">
+            <graphics>
+                <position x="1770.0" y="645.0"/>
+            </graphics>
+            <name>
+                <value>P_B_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_B_SERBANVODA">
+            <graphics>
+                <position x="1545.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>P_B_SERBANVODA</value>
+                <graphics>
+                    <offset x="72.14285714285708" y="-12.142857142857125"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_B_SERBANVODA_BUS">
+            <graphics>
+                <position x="1530.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>P_B_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="81.96428571428575" y="-29.999999999999986"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_B_SINCAI">
+            <graphics>
+                <position x="2340.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>P_B_SINCAI</value>
+                <graphics>
+                    <offset x="35.714285714285715" y="-17.14285714285714"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_B_SINCAINORD_BUS">
+            <graphics>
+                <position x="2310.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>P_B_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="83.57142857142873" y="-10.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_B_TINERETULUI">
+            <graphics>
+                <position x="2055.0" y="1620.0"/>
+            </graphics>
+            <name>
+                <value>P_B_TINERETULUI</value>
+                <graphics>
+                    <offset x="118.57142857142864" y="-7.8571428571429"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_CANTEMIR_TL">
+            <graphics>
+                <position x="1635.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>P_CANTEMIR_TL</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_INTER_2">
+            <graphics>
+                <position x="1890.0" y="1080.0"/>
+            </graphics>
+            <name>
+                <value>P_INTER_2</value>
+                <graphics>
+                    <offset x="-30.555555555555557" y="21.11111111111112"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_O_CANTEMIR">
+            <graphics>
+                <position x="2010.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>P_O_CANTEMIR</value>
+                <graphics>
+                    <offset x="113.57142857142851" y="-0.7142857142857144"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_O_SERBANVODA">
+            <graphics>
+                <position x="1485.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>P_O_SERBANVODA</value>
+                <graphics>
+                    <offset x="65.71428571428571" y="-8.571428571428571"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_O_SERBANVODA_BUS">
+            <graphics>
+                <position x="1485.0" y="1035.0"/>
+            </graphics>
+            <name>
+                <value>P_O_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="78.57142857142858" y="-7.857142857142857"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_O_SINCAI">
+            <graphics>
+                <position x="2385.0" y="1515.0"/>
+            </graphics>
+            <name>
+                <value>P_O_SINCAI</value>
+                <graphics>
+                    <offset x="44.28571428571429" y="-5.7142857142857135"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_O_SINCAI_BUS">
+            <graphics>
+                <position x="2385.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>P_O_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="27.14285714285714" y="-11.428571428571418"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_O_TINERETULUI">
+            <graphics>
+                <position x="1830.0" y="1665.0"/>
+            </graphics>
+            <name>
+                <value>P_O_TINERETULUI</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_CANTEMIR">
+            <graphics>
+                <position x="2010.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_CANTEMIR</value>
+                <graphics>
+                    <offset x="125.71428571428567" y="-5.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_SERBANVODA">
+            <graphics>
+                <position x="1080.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_SERBANVODA</value>
+                <graphics>
+                    <offset x="54.28571428571431" y="-9.285714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_SERBANVODA_BUS">
+            <graphics>
+                <position x="1080.0" y="1035.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="75.71428571428577" y="-7.142857142857142"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_SINCAI">
+            <graphics>
+                <position x="2685.0" y="1515.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_SINCAI</value>
+                <graphics>
+                    <offset x="51.428571428571445" y="-7.857142857142855"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_SINCAI_BUS">
+            <graphics>
+                <position x="2670.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="31.25" y="-13.75"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_TINERETULUI">
+            <graphics>
+                <position x="1830.0" y="1845.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_TINERETULUI</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE1_SINCAI_BUS">
+            <graphics>
+                <position x="3345.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>P_OE1_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="57.142857142857146" y="-6.428571428571428"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_SERBANVODA_BUS_TL">
+            <graphics>
+                <position x="1440.0" y="1305.0"/>
+            </graphics>
+            <name>
+                <value>P_SERBANVODA_BUS_TL</value>
+                <graphics>
+                    <offset x="153.57142857142858" y="-12.857142857142852"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_SERBANVODA_TL">
+            <graphics>
+                <position x="1440.0" y="1605.0"/>
+            </graphics>
+            <name>
+                <value>P_SERBANVODA_TL</value>
+                <graphics>
+                    <offset x="127.14285714285717" y="-13.571428571428573"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_SINCAI_TL">
+            <graphics>
+                <position x="2490.0" y="630.0"/>
+            </graphics>
+            <name>
+                <value>P_SINCAI_TL</value>
+                <graphics>
+                    <offset x="2.8571428571428443" y="-7.142857142857146"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_SINCAINORD_BUS_TL">
+            <graphics>
+                <position x="2430.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>P_SINCAINORD_BUS_TL</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_STATION_SINCAI_BUS">
+            <graphics>
+                <position x="2940.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>P_STATION_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="82.14285714285711" y="49.28571428571431"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_STATION_SINCAINORD_BUS">
+            <graphics>
+                <position x="3060.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>P_STATION_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="97.14285714285721" y="-13.571428571428566"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_TINERETULUI_TL">
+            <graphics>
+                <position x="2190.0" y="1695.0"/>
+            </graphics>
+            <name>
+                <value>P_TINERETULUI_TL</value>
+                <graphics>
+                    <offset x="114.28571428571429" y="-10.714285714285715"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X_CANTREMIR">
+            <graphics>
+                <position x="1770.0" y="465.0"/>
+            </graphics>
+            <name>
+                <value>P_X_CANTREMIR</value>
+                <graphics>
+                    <offset x="125.71428571428568" y="-10.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X_SERBANVODA">
+            <graphics>
+                <position x="1320.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>P_X_SERBANVODA</value>
+                <graphics>
+                    <offset x="75.00000000000004" y="-8.571428571428573"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X_SERBANVODA_BUS">
+            <graphics>
+                <position x="1305.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>P_X_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="83.57142857142853" y="-10.714285714285712"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X_SINCAI">
+            <graphics>
+                <position x="2640.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>P_X_SINCAI</value>
+                <graphics>
+                    <offset x="20.58441558441558" y="-7.987012987012987"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X_TINERETULUI">
+            <graphics>
+                <position x="2055.0" y="1800.0"/>
+            </graphics>
+            <name>
+                <value>P_X_TINERETULUI</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X1_SINCAI_BUS">
+            <graphics>
+                <position x="2850.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>P_X1_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="63.57142857142865" y="-14.285714285714276"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X1_SINCAINORD_BUS">
+            <graphics>
+                <position x="3195.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>P_X1_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="89.99999999999999" y="41.42857142857144"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X2_SINCAI_BUS">
+            <graphics>
+                <position x="3060.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>P_X2_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="57.14285714285716" y="-12.857142857142863"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X2_SINCAINORD_BUS">
+            <graphics>
+                <position x="2970.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>P_X2_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="42.142857142857146" y="42.85714285714285"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X3_SINCAINORD_BUS">
+            <graphics>
+                <position x="2565.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>P_X3_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="72.14285714285711" y="40.714285714285694"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="T_C_SINCAI_BUS">
+            <graphics>
+                <position x="2940.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>T_C_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="55.000000000000014" y="-28.57142857142857"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_C_SINCAINORD_BUS">
+            <graphics>
+                <position x="3060.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>T_C_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="87.14285714285714" y="54.28571428571429"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E_CANTEMIR">
+            <graphics>
+                <position x="1770.0" y="555.0"/>
+            </graphics>
+            <name>
+                <value>T_E_CANTEMIR</value>
+                <graphics>
+                    <offset x="118.57142857142857" y="33.57142857142857"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E_SERBANVODA">
+            <graphics>
+                <position x="1440.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>T_E_SERBANVODA</value>
+                <graphics>
+                    <offset x="58.571428571428584" y="-20.714285714285705"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E_SERBANVODA_BUS">
+            <graphics>
+                <position x="1440.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>T_E_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="70.71428571428571" y="-11.071428571428573"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>180</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E_SINCAI">
+            <graphics>
+                <position x="2490.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>T_E_SINCAI</value>
+                <graphics>
+                    <offset x="42.14285714285715" y="45.00000000000001"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E_SINCAINORD_BUS">
+            <graphics>
+                <position x="2430.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>T_E_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="52.14285714285715" y="44.2857142857143"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E_TINERETULUI">
+            <graphics>
+                <position x="2055.0" y="1695.0"/>
+            </graphics>
+            <name>
+                <value>T_E_TINERETULUI</value>
+                <graphics>
+                    <offset x="2.7067669172931748" y="-2.8571428571429376"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_ES_SINCAI_BUS">
+            <graphics>
+                <position x="3015.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>T_ES_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="116.42857142857143" y="42.14285714285715"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_ES_SINCAINORD_BUS">
+            <graphics>
+                <position x="2985.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>T_ES_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="-4.285714285714286" y="-2.4424906541753444E-15"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_I_CANTEMIR">
+            <graphics>
+                <position x="1770.0" y="735.0"/>
+            </graphics>
+            <name>
+                <value>T_I_CANTEMIR</value>
+                <graphics>
+                    <offset x="-3.571428571428571" y="-0.7142857142857162"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_I_SERBANVODA">
+            <graphics>
+                <position x="1695.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>T_I_SERBANVODA</value>
+                <graphics>
+                    <offset x="55.71428571428573" y="-21.428571428571423"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_I_SERBANVODA_BUS">
+            <graphics>
+                <position x="1695.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>T_I_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="49.2857142857143" y="49.285714285714306"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_I_SINCAI">
+            <graphics>
+                <position x="2220.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>T_I_SINCAI</value>
+                <graphics>
+                    <offset x="24.285714285714285" y="-12.857142857142852"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_I_SINCAINORD_BUS">
+            <graphics>
+                <position x="2205.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>T_I_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="70.0000000000001" y="-19.285714285714278"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_I_TINERETULUI">
+            <graphics>
+                <position x="2055.0" y="1545.0"/>
+            </graphics>
+            <name>
+                <value>T_I_TINERETULUI</value>
+                <graphics>
+                    <offset x="119.28571428571425" y="-1.4285714285714437"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_O_CANTEMIR">
+            <graphics>
+                <position x="2010.0" y="735.0"/>
+            </graphics>
+            <name>
+                <value>T_O_CANTEMIR</value>
+                <graphics>
+                    <offset x="118.57142857142865" y="1.4285714285714304"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_O_SERBANVODA">
+            <graphics>
+                <position x="1695.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>T_O_SERBANVODA</value>
+                <graphics>
+                    <offset x="44.2857142857143" y="-17.857142857142858"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_O_SERBANVODA_BUS">
+            <graphics>
+                <position x="1680.0" y="1035.0"/>
+            </graphics>
+            <name>
+                <value>T_O_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="57.85714285714289" y="-13.571428571428566"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_O_SINCAI">
+            <graphics>
+                <position x="2220.0" y="1515.0"/>
+            </graphics>
+            <name>
+                <value>T_O_SINCAI</value>
+                <graphics>
+                    <offset x="69.28571428571426" y="-20.714285714285715"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>180</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_O_SINCAI_BUS">
+            <graphics>
+                <position x="2205.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>T_O_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="25.714285714285715" y="50.00000000000002"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>180</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_O_TINERETULUI">
+            <graphics>
+                <position x="1830.0" y="1545.0"/>
+            </graphics>
+            <name>
+                <value>T_O_TINERETULUI</value>
+                <graphics>
+                    <offset x="2.220446049250313E-16" y="30.714285714285708"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_CANTEMIR">
+            <graphics>
+                <position x="2010.0" y="585.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_CANTEMIR</value>
+                <graphics>
+                    <offset x="119.99999999999999" y="-4.285714285714281"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_SERBANVODA">
+            <graphics>
+                <position x="1260.0" y="915.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_SERBANVODA</value>
+                <graphics>
+                    <offset x="62.8571428571429" y="-9.999999999999993"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_SERBANVODA_BUS">
+            <graphics>
+                <position x="1260.0" y="1035.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="82.85714285714295" y="-12.142857142857144"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_SINCAI">
+            <graphics>
+                <position x="2535.0" y="1515.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_SINCAI</value>
+                <graphics>
+                    <offset x="30.714285714285708" y="-20.000000000000007"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_SINCAI_BUS">
+            <graphics>
+                <position x="2520.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="54.99999999999999" y="-12.85714285714286"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_TINERETULUI">
+            <graphics>
+                <position x="1830.0" y="1755.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_TINERETULUI</value>
+                <graphics>
+                    <offset x="-4.285714285714286" y="0.7142857142857086"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE1_SINCAI_BUS">
+            <graphics>
+                <position x="3210.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>T_OE1_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="59.28571428571432" y="-26.428571428571434"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OUT_CANTEMIR">
+            <graphics>
+                <position x="1605.0" y="375.0"/>
+            </graphics>
+            <name>
+                <value>T_OUT_CANTEMIR</value>
+                <graphics>
+                    <offset x="78.57142857142863" y="-12.857142857142852"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OUT_SERBANVODA">
+            <graphics>
+                <position x="1200.0" y="1545.0"/>
+            </graphics>
+            <name>
+                <value>T_OUT_SERBANVODA</value>
+                <graphics>
+                    <offset x="6.428571428571427" y="24.28571428571428"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OUT_SERBANVODA_BUS">
+            <graphics>
+                <position x="1185.0" y="1275.0"/>
+            </graphics>
+            <name>
+                <value>T_OUT_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="-1.4285714285714282" y="26.428571428571427"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OUT_SINCAI">
+            <graphics>
+                <position x="2775.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>T_OUT_SINCAI</value>
+                <graphics>
+                    <offset x="113.5714285714283" y="2.857142857142862"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OUT_SINCAINORD_BUS">
+            <graphics>
+                <position x="2550.0" y="930.0"/>
+            </graphics>
+            <name>
+                <value>T_OUT_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="163.57142857142856" y="-2.1428571428571432"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OUT_TINERETULUI">
+            <graphics>
+                <position x="2190.0" y="1860.0"/>
+            </graphics>
+            <name>
+                <value>T_OUT_TINERETULUI</value>
+                <graphics>
+                    <offset x="100.00000000000006" y="-22.142857142857146"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_S_SINCAI_BUS">
+            <graphics>
+                <position x="2880.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>T_S_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="-1.7763568394002505E-15" y="42.14285714285715"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_S_SINCAINORD_BUS">
+            <graphics>
+                <position x="3150.0" y="930.0"/>
+            </graphics>
+            <name>
+                <value>T_S_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="138.57142857142838" y="-0.7142857142857175"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_CANTEMIR">
+            <graphics>
+                <position x="1770.0" y="375.0"/>
+            </graphics>
+            <name>
+                <value>T_U_CANTEMIR</value>
+                <graphics>
+                    <offset x="114.36507936507927" y="-1.5079365079365454"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_SERBANVODA">
+            <graphics>
+                <position x="1200.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>T_U_SERBANVODA</value>
+                <graphics>
+                    <offset x="67.14285714285714" y="-14.999999999999993"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_SERBANVODA_BUS">
+            <graphics>
+                <position x="1185.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>T_U_SERBANVODA_BUS</value>
+                <graphics>
+                    <offset x="80.7142857142858" y="-25.71428571428571"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_SINCAI">
+            <graphics>
+                <position x="2775.0" y="720.0"/>
+            </graphics>
+            <name>
+                <value>T_U_SINCAI</value>
+                <graphics>
+                    <offset x="50.71428571428569" y="50.71428571428574"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_SINCAI_BUS">
+            <graphics>
+                <position x="2745.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>T_U_SINCAI_BUS</value>
+                <graphics>
+                    <offset x="51.964285714285715" y="-25.17857142857143"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_SINCAINORD_BUS">
+            <graphics>
+                <position x="3345.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>T_U_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="70.00000000000007" y="-24.285714285714285"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_TINERETULUI">
+            <graphics>
+                <position x="2055.0" y="1890.0"/>
+            </graphics>
+            <name>
+                <value>T_U_TINERETULUI</value>
+                <graphics>
+                    <offset x="-5.714285714285714" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U1_SINCAINORD_BUS">
+            <graphics>
+                <position x="2865.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>T_U1_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="82.85714285714288" y="-14.285714285714278"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U2_SINCAINORD_BUS">
+            <graphics>
+                <position x="2655.0" y="1005.0"/>
+            </graphics>
+            <name>
+                <value>T_U2_SINCAINORD_BUS</value>
+                <graphics>
+                    <offset x="68.57142857142856" y="68.57142857142858"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="P_2_B_O2e to T_2_B_S_u1" source="P_OE_SINCAI_BUS" target="T_U_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2695" y="1361" curvePoint="false"/>
+            <arcpath id="001" x="2750" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X1_SINCAI_BUS to T_U_SINCAI_BUS" source="P_X1_SINCAI_BUS" target="T_U_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2846" y="1360" curvePoint="false"/>
+            <arcpath id="001" x="2761" y="1356" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X2_SINCAI_BUS to T_C_SINCAI_BUS" source="P_X2_SINCAI_BUS" target="T_C_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3056" y="1360" curvePoint="false"/>
+            <arcpath id="001" x="2956" y="1356" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X2_SINCAI_BUS to T_ES_SINCAI_BUS" source="P_X2_SINCAI_BUS" target="T_ES_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3061" y="1372" curvePoint="false"/>
+            <arcpath id="001" x="3031" y="1416" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P0 to T0" source="P_A_CANTEMIR" target="T_U_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1780" y="310" curvePoint="false"/>
+            <arcpath id="001" x="1780" y="380" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P0 to T3" source="P_A_CANTEMIR" target="T_OUT_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1767" y="302" curvePoint="false"/>
+            <arcpath id="001" x="1621" y="381" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P10 to T7" source="P_SERBANVODA_TL" target="T_E_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1451" y="1601" curvePoint="false"/>
+            <arcpath id="001" x="1451" y="1496" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P13 to T10" source="P_O_SERBANVODA" target="T_OE_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1481" y="925" curvePoint="false"/>
+            <arcpath id="001" x="1276" y="921" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P13 to T11" source="P_O_SERBANVODA" target="T_O_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1510" y="925" curvePoint="false"/>
+            <arcpath id="001" x="1701" y="921" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P14 to T12" source="P_O_SINCAI" target="T_O_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2381" y="1525" curvePoint="false"/>
+            <arcpath id="001" x="2236" y="1520" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P14 to T13" source="P_O_SINCAI" target="T_OE_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2410" y="1525" curvePoint="false"/>
+            <arcpath id="001" x="2541" y="1521" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P16 to T14" source="P_B_SINCAI" target="T_I_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2336" y="731" curvePoint="false"/>
+            <arcpath id="001" x="2235" y="731" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P17 to T15" source="P_X_SINCAI" target="T_E_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2636" y="730" curvePoint="false"/>
+            <arcpath id="001" x="2506" y="726" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P17 to T16" source="P_X_SINCAI" target="T_U_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2665" y="730" curvePoint="false"/>
+            <arcpath id="001" x="2781" y="726" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P17 to T17" source="P_X_SINCAI" target="T_OUT_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2663" y="723" curvePoint="false"/>
+            <arcpath id="001" x="2770" y="671" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P18 to T16" source="P_A_SINCAI" target="T_U_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2936" y="731" curvePoint="false"/>
+            <arcpath id="001" x="2790" y="731" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P18 to T17" source="P_A_SINCAI" target="T_OUT_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2936" y="725" curvePoint="false"/>
+            <arcpath id="001" x="2800" y="671" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P19 to T15" source="P_SINCAI_TL" target="T_E_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2501" y="655" curvePoint="false"/>
+            <arcpath id="001" x="2501" y="716" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P1 to T1" source="P_CANTEMIR_TL" target="T_E_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1660" y="552" curvePoint="false"/>
+            <arcpath id="001" x="1765" y="566" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P21 to T20" source="P_A_TINERETULUI" target="T_U_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2065" y="2036" curvePoint="false"/>
+            <arcpath id="001" x="2065" y="1905" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P21 to T23" source="P_A_TINERETULUI" target="T_OUT_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2075" y="2038" curvePoint="false"/>
+            <arcpath id="001" x="2195" y="1876" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P22 to T18" source="P_B_TINERETULUI" target="T_I_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2065" y="1616" curvePoint="false"/>
+            <arcpath id="001" x="2065" y="1560" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P23 to T21" source="P_O_TINERETULUI" target="T_O_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1840" y="1661" curvePoint="false"/>
+            <arcpath id="001" x="1835" y="1560" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P23 to T22" source="P_O_TINERETULUI" target="T_OE_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1840" y="1690" curvePoint="false"/>
+            <arcpath id="001" x="1835" y="1760" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P25 to T19" source="P_X_TINERETULUI" target="T_E_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2065" y="1796" curvePoint="false"/>
+            <arcpath id="001" x="2060" y="1710" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P25 to T20" source="P_X_TINERETULUI" target="T_U_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2065" y="1825" curvePoint="false"/>
+            <arcpath id="001" x="2060" y="1895" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P25 to T23" source="P_X_TINERETULUI" target="T_OUT_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2080" y="1816" curvePoint="false"/>
+            <arcpath id="001" x="2196" y="1866" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P27 to T19" source="P_TINERETULUI_TL" target="T_E_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2186" y="1706" curvePoint="false"/>
+            <arcpath id="001" x="2080" y="1706" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P28 to T24" source="P_B_SINCAINORD_BUS" target="T_I_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2306" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="2220" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P29 to T25" source="P_X3_SINCAINORD_BUS" target="T_E_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2561" y="1015" curvePoint="false"/>
+            <arcpath id="001" x="2446" y="1011" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P29 to T26" source="P_X3_SINCAINORD_BUS" target="T_U2_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2590" y="1015" curvePoint="false"/>
+            <arcpath id="001" x="2661" y="1011" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P29 to T27" source="P_X3_SINCAINORD_BUS" target="T_OUT_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2572" y="1001" curvePoint="false"/>
+            <arcpath id="001" x="2561" y="946" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P2 to T0" source="P_X_CANTREMIR" target="T_U_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1780" y="461" curvePoint="false"/>
+            <arcpath id="001" x="1775" y="390" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P2 to T1" source="P_X_CANTREMIR" target="T_E_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1780" y="490" curvePoint="false"/>
+            <arcpath id="001" x="1775" y="560" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P2 to T3" source="P_X_CANTREMIR" target="T_OUT_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1767" y="468" curvePoint="false"/>
+            <arcpath id="001" x="1620" y="391" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P30 to T26" source="P_A1_SINCAINORD_BUS" target="T_U2_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2741" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="2670" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P30 to T27" source="P_A1_SINCAINORD_BUS" target="T_OUT_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2741" y="1010" curvePoint="false"/>
+            <arcpath id="001" x="2576" y="940" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P31 to T25" source="P_SINCAINORD_BUS_TL" target="T_E_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2441" y="940" curvePoint="false"/>
+            <arcpath id="001" x="2441" y="1001" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P33 to T28" source="P_O_SINCAI_BUS" target="T_O_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2381" y="1360" curvePoint="false"/>
+            <arcpath id="001" x="2221" y="1355" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P33 to T29" source="P_O_SINCAI_BUS" target="T_OE_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2410" y="1360" curvePoint="false"/>
+            <arcpath id="001" x="2526" y="1356" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P35 to T30" source="P_A_SERBANVODA_BUS" target="T_U_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1090" y="1211" curvePoint="false"/>
+            <arcpath id="001" x="1190" y="1211" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P35 to T33" source="P_A_SERBANVODA_BUS" target="T_OUT_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1088" y="1218" curvePoint="false"/>
+            <arcpath id="001" x="1190" y="1280" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P36 to T30" source="P_X_SERBANVODA_BUS" target="T_U_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1301" y="1210" curvePoint="false"/>
+            <arcpath id="001" x="1201" y="1206" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P36 to T31" source="P_X_SERBANVODA_BUS" target="T_E_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1330" y="1210" curvePoint="false"/>
+            <arcpath id="001" x="1446" y="1205" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P36 to T33" source="P_X_SERBANVODA_BUS" target="T_OUT_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1302" y="1218" curvePoint="false"/>
+            <arcpath id="001" x="1200" y="1281" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P37 to T32" source="P_B_SERBANVODA_BUS" target="T_I_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1555" y="1211" curvePoint="false"/>
+            <arcpath id="001" x="1700" y="1211" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P38 to T31" source="P_SERBANVODA_BUS_TL" target="T_E_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1450" y="1301" curvePoint="false"/>
+            <arcpath id="001" x="1450" y="1225" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 to T2" source="P_B_CANTEMIR" target="T_I_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1780" y="670" curvePoint="false"/>
+            <arcpath id="001" x="1780" y="740" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P41 to T34" source="P_O_SERBANVODA_BUS" target="T_OE_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1481" y="1045" curvePoint="false"/>
+            <arcpath id="001" x="1276" y="1041" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P41 to T35" source="P_O_SERBANVODA_BUS" target="T_O_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1510" y="1045" curvePoint="false"/>
+            <arcpath id="001" x="1686" y="1041" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T11" source="P_INTER_2" target="T_O_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1888" y="1081" curvePoint="false"/>
+            <arcpath id="001" x="1710" y="931" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T12" source="P_INTER_2" target="T_O_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1910" y="1102" curvePoint="false"/>
+            <arcpath id="001" x="2225" y="1530" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T14" source="P_INTER_2" target="T_I_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1910" y="1080" curvePoint="false"/>
+            <arcpath id="001" x="2226" y="726" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T18" source="P_INTER_2" target="T_I_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1905" y="1105" curvePoint="false"/>
+            <arcpath id="001" x="2060" y="1550" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T2" source="P_INTER_2" target="T_I_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1895" y="1076" curvePoint="false"/>
+            <arcpath id="001" x="1775" y="750" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T21" source="P_INTER_2" target="T_O_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1898" y="1105" curvePoint="false"/>
+            <arcpath id="001" x="1835" y="1550" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T24" source="P_INTER_2" target="T_I_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1915" y="1087" curvePoint="false"/>
+            <arcpath id="001" x="2211" y="1011" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T28" source="P_INTER_2" target="T_O_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1911" y="1100" curvePoint="false"/>
+            <arcpath id="001" x="2210" y="1365" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T32" source="P_INTER_2" target="T_I_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1887" y="1098" curvePoint="false"/>
+            <arcpath id="001" x="1711" y="1206" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T35" source="P_INTER_2" target="T_O_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1886" y="1087" curvePoint="false"/>
+            <arcpath id="001" x="1696" y="1041" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T5" source="P_INTER_2" target="T_O_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1905" y="1076" curvePoint="false"/>
+            <arcpath id="001" x="2015" y="750" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T8" source="P_INTER_2" target="T_I_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1893" y="1103" curvePoint="false"/>
+            <arcpath id="001" x="1706" y="1466" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P44 to T38" source="P_X1_SINCAI_BUS" target="T_C_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2875" y="1361" curvePoint="false"/>
+            <arcpath id="001" x="2945" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P44 to T39" source="P_X1_SINCAI_BUS" target="T_S_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2868" y="1372" curvePoint="false"/>
+            <arcpath id="001" x="2891" y="1406" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P45 to T40" source="P_STATION_SINCAI_BUS" target="T_ES_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2965" y="1421" curvePoint="false"/>
+            <arcpath id="001" x="3020" y="1421" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P46 to T36" source="P_X2_SINCAI_BUS" target="T_OE1_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3085" y="1361" curvePoint="false"/>
+            <arcpath id="001" x="3215" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P48 to T45" source="P_A_SINCAINORD_BUS" target="T_U_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3476" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="3360" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P49 to T42" source="P_X1_SINCAINORD_BUS" target="T_C_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3191" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="3075" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P49 to T44" source="P_X1_SINCAINORD_BUS" target="T_S_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3198" y="1002" curvePoint="false"/>
+            <arcpath id="001" x="3165" y="941" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P50 to T43" source="P_STATION_SINCAINORD_BUS" target="T_ES_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3056" y="926" curvePoint="false"/>
+            <arcpath id="001" x="3000" y="926" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P52 to T41" source="P_X2_SINCAINORD_BUS" target="T_U1_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2966" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="2880" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P6 to T4" source="P_O_CANTEMIR" target="T_OE_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2020" y="656" curvePoint="false"/>
+            <arcpath id="001" x="2015" y="600" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P6 to T5" source="P_O_CANTEMIR" target="T_O_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2020" y="685" curvePoint="false"/>
+            <arcpath id="001" x="2015" y="740" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P7 to T6" source="P_A_SERBANVODA" target="T_U_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1105" y="1481" curvePoint="false"/>
+            <arcpath id="001" x="1205" y="1481" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P7 to T9" source="P_A_SERBANVODA" target="T_OUT_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1103" y="1488" curvePoint="false"/>
+            <arcpath id="001" x="1205" y="1550" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P8 to T6" source="P_X_SERBANVODA" target="T_U_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1316" y="1480" curvePoint="false"/>
+            <arcpath id="001" x="1216" y="1476" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P8 to T7" source="P_X_SERBANVODA" target="T_E_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1345" y="1480" curvePoint="false"/>
+            <arcpath id="001" x="1446" y="1476" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P8 to T9" source="P_X_SERBANVODA" target="T_OUT_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1317" y="1488" curvePoint="false"/>
+            <arcpath id="001" x="1215" y="1551" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P9 to T8" source="P_B_SERBANVODA" target="T_I_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1570" y="1481" curvePoint="false"/>
+            <arcpath id="001" x="1700" y="1481" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_2_BS_1 to P_1_B_Oe" source="T_OE1_SINCAI_BUS" target="P_OE1_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3225" y="1361" curvePoint="false"/>
+            <arcpath id="001" x="3341" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T0 to P2" source="T_U_CANTEMIR" target="P_X_CANTREMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1785" y="391" curvePoint="false"/>
+            <arcpath id="001" x="1781" y="461" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T10 to P12" source="T_OE_SERBANVODA" target="P_OE_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1265" y="926" curvePoint="false"/>
+            <arcpath id="001" x="1105" y="926" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T10 to P13" source="T_OE_SERBANVODA" target="P_O_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1275" y="931" curvePoint="false"/>
+            <arcpath id="001" x="1481" y="926" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T11 to P13" source="T_O_SERBANVODA" target="P_O_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1700" y="931" curvePoint="false"/>
+            <arcpath id="001" x="1510" y="926" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T11 to P42" source="T_O_SERBANVODA" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1711" y="921" curvePoint="false"/>
+            <arcpath id="001" x="1890" y="1080" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T12 to P14" source="T_O_SINCAI" target="P_O_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2235" y="1530" curvePoint="false"/>
+            <arcpath id="001" x="2381" y="1526" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T12 to P42" source="T_O_SINCAI" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2226" y="1520" curvePoint="false"/>
+            <arcpath id="001" x="1910" y="1102" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T13 to P14" source="T_OE_SINCAI" target="P_O_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2540" y="1531" curvePoint="false"/>
+            <arcpath id="001" x="2410" y="1526" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T13 to P15" source="T_OE_SINCAI" target="P_OE_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2550" y="1526" curvePoint="false"/>
+            <arcpath id="001" x="2681" y="1526" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T14 to P42" source="T_I_SINCAI" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2225" y="736" curvePoint="false"/>
+            <arcpath id="001" x="1911" y="1080" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T15 to P16" source="T_E_SINCAI" target="P_B_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2495" y="731" curvePoint="false"/>
+            <arcpath id="001" x="2365" y="731" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T15 to P17" source="T_E_SINCAI" target="P_X_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2505" y="736" curvePoint="false"/>
+            <arcpath id="001" x="2636" y="731" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T15 to P19" source="T_E_SINCAI" target="P_SINCAI_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2501" y="716" curvePoint="false"/>
+            <arcpath id="001" x="2501" y="655" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T16 to P17" source="T_U_SINCAI" target="P_X_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2780" y="736" curvePoint="false"/>
+            <arcpath id="001" x="2665" y="731" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T17 to P20" source="T_OUT_SINCAI" target="OP_SINCAI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2785" y="665" curvePoint="false"/>
+            <arcpath id="001" x="2785" y="640" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T18 to P42" source="T_I_TINERETULUI" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2070" y="1551" curvePoint="false"/>
+            <arcpath id="001" x="1906" y="1105" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T19 to P22" source="T_E_TINERETULUI" target="P_B_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2065" y="1700" curvePoint="false"/>
+            <arcpath id="001" x="2065" y="1645" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T19 to P25" source="T_E_TINERETULUI" target="P_X_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2070" y="1711" curvePoint="false"/>
+            <arcpath id="001" x="2066" y="1796" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T19 to P27" source="T_E_TINERETULUI" target="P_TINERETULUI_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2080" y="1706" curvePoint="false"/>
+            <arcpath id="001" x="2186" y="1706" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T1 to P1" source="T_E_CANTEMIR" target="P_CANTEMIR_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1765" y="566" curvePoint="false"/>
+            <arcpath id="001" x="1660" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T1 to P2" source="T_E_CANTEMIR" target="P_X_CANTREMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1785" y="561" curvePoint="false"/>
+            <arcpath id="001" x="1781" y="490" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T1 to P3" source="T_E_CANTEMIR" target="P_B_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1780" y="570" curvePoint="false"/>
+            <arcpath id="001" x="1780" y="641" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T20 to P25" source="T_U_TINERETULUI" target="P_X_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2070" y="1896" curvePoint="false"/>
+            <arcpath id="001" x="2066" y="1825" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T21 to P23" source="T_O_TINERETULUI" target="P_O_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1845" y="1561" curvePoint="false"/>
+            <arcpath id="001" x="1841" y="1661" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T21 to P42" source="T_O_TINERETULUI" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1845" y="1551" curvePoint="false"/>
+            <arcpath id="001" x="1898" y="1105" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T22 to P23" source="T_OE_TINERETULUI" target="P_O_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1845" y="1761" curvePoint="false"/>
+            <arcpath id="001" x="1841" y="1690" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T22 to P24" source="T_OE_TINERETULUI" target="P_OE_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1840" y="1770" curvePoint="false"/>
+            <arcpath id="001" x="1840" y="1841" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T23 to P26" source="T_OUT_TINERETULUI" target="OP_TINERETULUI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2205" y="1871" curvePoint="false"/>
+            <arcpath id="001" x="2291" y="1871" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T24 to P42" source="T_I_SINCAINORD_BUS" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2210" y="1021" curvePoint="false"/>
+            <arcpath id="001" x="1915" y="1087" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P28" source="T_E_SINCAINORD_BUS" target="P_B_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2435" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="2335" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P29" source="T_E_SINCAINORD_BUS" target="P_X3_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2445" y="1021" curvePoint="false"/>
+            <arcpath id="001" x="2561" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P31" source="T_E_SINCAINORD_BUS" target="P_SINCAINORD_BUS_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2441" y="1001" curvePoint="false"/>
+            <arcpath id="001" x="2441" y="940" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T26 to P29" source="T_U2_SINCAINORD_BUS" target="P_X3_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2660" y="1021" curvePoint="false"/>
+            <arcpath id="001" x="2590" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T27 to P32" source="T_OUT_SINCAINORD_BUS" target="OP_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2561" y="936" curvePoint="false"/>
+            <arcpath id="001" x="2561" y="880" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T28 to P33" source="T_O_SINCAI_BUS" target="P_O_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2220" y="1365" curvePoint="false"/>
+            <arcpath id="001" x="2381" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T28 to P42" source="T_O_SINCAI_BUS" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2211" y="1355" curvePoint="false"/>
+            <arcpath id="001" x="1912" y="1100" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T29 to P33" source="T_OE_SINCAI_BUS" target="P_O_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2525" y="1366" curvePoint="false"/>
+            <arcpath id="001" x="2410" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T29 to P34" source="T_OE_SINCAI_BUS" target="P_OE_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2535" y="1361" curvePoint="false"/>
+            <arcpath id="001" x="2666" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T2 to P42" source="T_I_CANTEMIR" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1785" y="751" curvePoint="false"/>
+            <arcpath id="001" x="1896" y="1076" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T30 to P36" source="T_U_SERBANVODA_BUS" target="P_X_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1200" y="1216" curvePoint="false"/>
+            <arcpath id="001" x="1301" y="1211" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T31 to P36" source="T_E_SERBANVODA_BUS" target="P_X_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1445" y="1215" curvePoint="false"/>
+            <arcpath id="001" x="1330" y="1211" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T31 to P37" source="T_E_SERBANVODA_BUS" target="P_B_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1456" y="1210" curvePoint="false"/>
+            <arcpath id="001" x="1526" y="1210" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T31 to P38" source="T_E_SERBANVODA_BUS" target="P_SERBANVODA_BUS_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1450" y="1225" curvePoint="false"/>
+            <arcpath id="001" x="1450" y="1301" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T32 to P42" source="T_I_SERBANVODA_BUS" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1710" y="1216" curvePoint="false"/>
+            <arcpath id="001" x="1887" y="1098" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T33 to P39" source="T_OUT_SERBANVODA_BUS" target="OP_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1195" y="1290" curvePoint="false"/>
+            <arcpath id="001" x="1195" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T34 to P40" source="T_OE_SERBANVODA_BUS" target="P_OE_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1265" y="1046" curvePoint="false"/>
+            <arcpath id="001" x="1105" y="1046" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T34 to P41" source="T_OE_SERBANVODA_BUS" target="P_O_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1275" y="1051" curvePoint="false"/>
+            <arcpath id="001" x="1481" y="1046" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T35 to P41" source="T_O_SERBANVODA_BUS" target="P_O_SERBANVODA_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1685" y="1051" curvePoint="false"/>
+            <arcpath id="001" x="1510" y="1046" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T35 to P42" source="T_O_SERBANVODA_BUS" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1695" y="1051" curvePoint="false"/>
+            <arcpath id="001" x="1886" y="1087" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T37 to P44" source="T_U_SINCAI_BUS" target="P_X1_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2760" y="1366" curvePoint="false"/>
+            <arcpath id="001" x="2846" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T38 to P46" source="T_C_SINCAI_BUS" target="P_X2_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2955" y="1366" curvePoint="false"/>
+            <arcpath id="001" x="3056" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T39 to P45" source="T_S_SINCAI_BUS" target="P_STATION_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2895" y="1421" curvePoint="false"/>
+            <arcpath id="001" x="2936" y="1421" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T3 to P4" source="T_OUT_CANTEMIR" target="OP_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1610" y="386" curvePoint="false"/>
+            <arcpath id="001" x="1540" y="386" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T40 to P46" source="T_ES_SINCAI_BUS" target="P_X2_SINCAI_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3030" y="1426" curvePoint="false"/>
+            <arcpath id="001" x="3062" y="1373" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T41 to P30" source="T_U1_SINCAINORD_BUS" target="P_A1_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2870" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="2770" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T42 to P52" source="T_C_SINCAINORD_BUS" target="P_X2_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3065" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="2995" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T43 to P52" source="T_ES_SINCAINORD_BUS" target="P_X2_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2996" y="941" curvePoint="false"/>
+            <arcpath id="001" x="2983" y="1001" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T44 to P50" source="T_S_SINCAINORD_BUS" target="P_STATION_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3155" y="941" curvePoint="false"/>
+            <arcpath id="001" x="3085" y="928" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T45 to P49" source="T_U_SINCAINORD_BUS" target="P_X1_SINCAINORD_BUS">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="3350" y="1016" curvePoint="false"/>
+            <arcpath id="001" x="3220" y="1016" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T4 to P5" source="T_OE_CANTEMIR" target="P_OE_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2020" y="590" curvePoint="false"/>
+            <arcpath id="001" x="2020" y="535" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T4 to P6" source="T_OE_CANTEMIR" target="P_O_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2025" y="601" curvePoint="false"/>
+            <arcpath id="001" x="2021" y="656" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T5 to P42" source="T_O_CANTEMIR" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2025" y="751" curvePoint="false"/>
+            <arcpath id="001" x="1906" y="1076" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T5 to P6" source="T_O_CANTEMIR" target="P_O_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="2025" y="741" curvePoint="false"/>
+            <arcpath id="001" x="2021" y="685" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T6 to P8" source="T_U_SERBANVODA" target="P_X_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1215" y="1486" curvePoint="false"/>
+            <arcpath id="001" x="1316" y="1481" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T7 to P10" source="T_E_SERBANVODA" target="P_SERBANVODA_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1451" y="1496" curvePoint="false"/>
+            <arcpath id="001" x="1451" y="1601" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T7 to P8" source="T_E_SERBANVODA" target="P_X_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1445" y="1486" curvePoint="false"/>
+            <arcpath id="001" x="1345" y="1481" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T7 to P9" source="T_E_SERBANVODA" target="P_B_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1455" y="1481" curvePoint="false"/>
+            <arcpath id="001" x="1541" y="1481" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T8 to P42" source="T_I_SERBANVODA" target="P_INTER_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1706" y="1466" curvePoint="false"/>
+            <arcpath id="001" x="1893" y="1103" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T9 to P11" source="T_OUT_SERBANVODA" target="OP_SERBANVODA">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1210" y="1560" curvePoint="false"/>
+            <arcpath id="001" x="1210" y="1631" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>

@@ -1,0 +1,3565 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="OP_REQ_CANTEMIR_1">
+            <graphics>
+                <position x="285.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>OP_REQ_CANTEMIR_1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP_REQ_CANTEMIR_2">
+            <graphics>
+                <position x="840.0" y="1470.0"/>
+            </graphics>
+            <name>
+                <value>OP_REQ_CANTEMIR_2</value>
+                <graphics>
+                    <offset x="140.00000000000003" y="-7.857142857142858"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="2220.0"/>
+            </graphics>
+            <name>
+                <value>P_A_CANTEMIR</value>
+                <graphics>
+                    <offset x="96.66666666666664" y="-6.666666666666657"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_CANTEMIRSUD">
+            <graphics>
+                <position x="690.0" y="45.0"/>
+            </graphics>
+            <name>
+                <value>P_A_CANTEMIRSUD</value>
+                <graphics>
+                    <offset x="126.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_LANARIEI">
+            <graphics>
+                <position x="960.0" y="2055.0"/>
+            </graphics>
+            <name>
+                <value>P_A_LANARIEI</value>
+                <graphics>
+                    <offset x="92.0" y="-10.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_PARKING">
+            <graphics>
+                <position x="165.0" y="1725.0"/>
+            </graphics>
+            <name>
+                <value>P_A_PARKING</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_POTERASI">
+            <graphics>
+                <position x="1020.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>P_A_POTERASI</value>
+                <graphics>
+                    <offset x="103.3076923076923" y="-11.615384615384617"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A_RADULESCU">
+            <graphics>
+                <position x="975.0" y="1065.0"/>
+            </graphics>
+            <name>
+                <value>P_A_RADULESCU</value>
+                <graphics>
+                    <offset x="129.1538461538462" y="3.1538461538461275"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A00_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>P_A00_CANTEMIR</value>
+                <graphics>
+                    <offset x="125.14285714285711" y="-3.571428571428571"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A01_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="870.0"/>
+            </graphics>
+            <name>
+                <value>P_A01_CANTEMIR</value>
+                <graphics>
+                    <offset x="119.16666666666669" y="-9.999999999999998"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A02_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>P_A02_CANTEMIR</value>
+                <graphics>
+                    <offset x="124.16666666666671" y="-1.6666666666666674"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A03_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1485.0"/>
+            </graphics>
+            <name>
+                <value>P_A03_CANTEMIR</value>
+                <graphics>
+                    <offset x="118.3333333333333" y="-8.333333333333334"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A04_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1875.0"/>
+            </graphics>
+            <name>
+                <value>P_A04_CANTEMIR</value>
+                <graphics>
+                    <offset x="123.33333333333333" y="-15.000000000000007"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A1_LANARIEI">
+            <graphics>
+                <position x="180.0" y="2040.0"/>
+            </graphics>
+            <name>
+                <value>P_A1_LANARIEI</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A1_POTERASI">
+            <graphics>
+                <position x="165.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>P_A1_POTERASI</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A1_RADULESCU">
+            <graphics>
+                <position x="165.0" y="1095.0"/>
+            </graphics>
+            <name>
+                <value>P_A1_RADULESCU</value>
+                <graphics>
+                    <offset x="17.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A10_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="345.0"/>
+            </graphics>
+            <name>
+                <value>P_A10_CANTEMIR</value>
+                <graphics>
+                    <offset x="-4.714285714285722" y="5.571428571428575"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A11_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="870.0"/>
+            </graphics>
+            <name>
+                <value>P_A11_CANTEMIR</value>
+                <graphics>
+                    <offset x="7.666666666666729" y="-6.166666666666659"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A12_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1275.0"/>
+            </graphics>
+            <name>
+                <value>P_A12_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_A13_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1665.0"/>
+            </graphics>
+            <name>
+                <value>P_A13_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_CANTEMIR_PTL_1">
+            <graphics>
+                <position x="285.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>P_CANTEMIR_PTL_1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_CANTEMIR_PTL_2">
+            <graphics>
+                <position x="840.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>P_CANTEMIR_PTL_2</value>
+                <graphics>
+                    <offset x="127.14285714285711" y="-5.7142857142857135"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_CANTEMIR_TL_1">
+            <graphics>
+                <position x="510.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>P_CANTEMIR_TL_1</value>
+                <graphics>
+                    <offset x="45.666666666666714" y="-20.52380952380952"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_CANTEMIR_TL_2">
+            <graphics>
+                <position x="615.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>P_CANTEMIR_TL_2</value>
+                <graphics>
+                    <offset x="79.64285714285717" y="-15.11904761904762"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="2220.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_CANTEMIR</value>
+                <graphics>
+                    <offset x="114.66666666666667" y="3.4999999999999996"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_CANTEMIRSUD">
+            <graphics>
+                <position x="405.0" y="45.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_CANTEMIRSUD</value>
+                <graphics>
+                    <offset x="2.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_PARKING">
+            <graphics>
+                <position x="165.0" y="1635.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_PARKING</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_POTERASI">
+            <graphics>
+                <position x="1020.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_POTERASI</value>
+                <graphics>
+                    <offset x="123.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_OE_RADULESCU">
+            <graphics>
+                <position x="975.0" y="1125.0"/>
+            </graphics>
+            <name>
+                <value>P_OE_RADULESCU</value>
+                <graphics>
+                    <offset x="137.0769230769231" y="-6.923076923076894"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_STATION0_CANTEMIR">
+            <graphics>
+                <position x="315.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>P_STATION0_CANTEMIR</value>
+                <graphics>
+                    <offset x="-9.28571428571429" y="-9.285714285714286"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_STATION1_CANTEMIR">
+            <graphics>
+                <position x="795.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>P_STATION1_CANTEMIR</value>
+                <graphics>
+                    <offset x="153.57142857142853" y="43.571428571428584"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X00_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>P_X00_CANTEMIR</value>
+                <graphics>
+                    <offset x="117.28571428571425" y="-14.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X01_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="510.0"/>
+            </graphics>
+            <name>
+                <value>P_X01_CANTEMIR</value>
+                <graphics>
+                    <offset x="123.0" y="-3.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X02_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="690.0"/>
+            </graphics>
+            <name>
+                <value>P_X02_CANTEMIR</value>
+                <graphics>
+                    <offset x="122.14285714285701" y="-8.571428571428564"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X03_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1095.0"/>
+            </graphics>
+            <name>
+                <value>P_X03_CANTEMIR</value>
+                <graphics>
+                    <offset x="125.00000000000003" y="-3.3333333333333326"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X04_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1335.0"/>
+            </graphics>
+            <name>
+                <value>P_X04_CANTEMIR</value>
+                <graphics>
+                    <offset x="123.33333333333329" y="-2.5000000000000018"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X05_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1665.0"/>
+            </graphics>
+            <name>
+                <value>P_X05_CANTEMIR</value>
+                <graphics>
+                    <offset x="121.6666666666668" y="-5.8333333333333215"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X06_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="2040.0"/>
+            </graphics>
+            <name>
+                <value>P_X06_CANTEMIR</value>
+                <graphics>
+                    <offset x="121.66666666666664" y="-7.499999999999999"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X10_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>P_X10_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="30.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X11_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="495.0"/>
+            </graphics>
+            <name>
+                <value>P_X11_CANTEMIR</value>
+                <graphics>
+                    <offset x="12.0" y="-7.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X12_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="675.0"/>
+            </graphics>
+            <name>
+                <value>P_X12_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X13_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1095.0"/>
+            </graphics>
+            <name>
+                <value>P_X13_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,6</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X14_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1506.4285714285713"/>
+            </graphics>
+            <name>
+                <value>P_X14_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.833333333333337" y="-5.833333333333324"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_X15_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="2055.0"/>
+            </graphics>
+            <name>
+                <value>P_X15_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="USERREQ_CANTEMIR_0">
+            <graphics>
+                <position x="285.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>USERREQ_CANTEMIR_0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="USERREQ_CANTEMIR_1">
+            <graphics>
+                <position x="840.0" y="1350.0"/>
+            </graphics>
+            <name>
+                <value>USERREQ_CANTEMIR_1</value>
+                <graphics>
+                    <offset x="139.9999999999999" y="-7.142857142857142"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="USERREQ_TAXI_CANTEMIR_0">
+            <graphics>
+                <position x="195.0" y="645.0"/>
+            </graphics>
+            <name>
+                <value>USERREQ_TAXI_CANTEMIR_0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="USERREQ_TAXI_CANTEMIR_1">
+            <graphics>
+                <position x="945.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>USERREQ_TAXI_CANTEMIR_1</value>
+                <graphics>
+                    <offset x="109.28571428571423" y="-11.428571428571425"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="T_C0_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>T_C0_CANTEMIR</value>
+                <graphics>
+                    <offset x="115.71428571428572" y="-6.428571428571429"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_C1_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="600.0"/>
+            </graphics>
+            <name>
+                <value>T_C1_CANTEMIR</value>
+                <graphics>
+                    <offset x="7.857142857142858" y="1.4285714285714264"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E00_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="270.0"/>
+            </graphics>
+            <name>
+                <value>T_E00_CANTEMIR</value>
+                <graphics>
+                    <offset x="116.66666666666663" y="-5.551115123125783E-15"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E01_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="780.0"/>
+            </graphics>
+            <name>
+                <value>T_E01_CANTEMIR</value>
+                <graphics>
+                    <offset x="120.83333333333333" y="-2.5000000000000124"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E02_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1140.0"/>
+            </graphics>
+            <name>
+                <value>T_E02_CANTEMIR</value>
+                <graphics>
+                    <offset x="136.66666666666657" y="10.000000000000004"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E03_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1785.0"/>
+            </graphics>
+            <name>
+                <value>T_E03_CANTEMIR</value>
+                <graphics>
+                    <offset x="114.99999999999994" y="-0.8333333333333367"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E04_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="2130.0"/>
+            </graphics>
+            <name>
+                <value>T_E04_CANTEMIR</value>
+                <graphics>
+                    <offset x="124.16666666666663" y="3.3306690738754696E-15"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E10_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>T_E10_CANTEMIR</value>
+                <graphics>
+                    <offset x="-1.666666666666666" y="2.499999999999999"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E11_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="420.0"/>
+            </graphics>
+            <name>
+                <value>T_E11_CANTEMIR</value>
+                <graphics>
+                    <offset x="-3.3333333333333335" y="-0.8333333333333443"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E12_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="990.0"/>
+            </graphics>
+            <name>
+                <value>T_E12_CANTEMIR</value>
+                <graphics>
+                    <offset x="-5.833333333333333" y="15.000000000000007"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_E13_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1785.0"/>
+            </graphics>
+            <name>
+                <value>T_E13_CANTEMIR</value>
+                <graphics>
+                    <offset x="1.666666666666667" y="0.8333333333333361"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_ES0_CANTEMIR">
+            <graphics>
+                <position x="315.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>T_ES0_CANTEMIR</value>
+                <graphics>
+                    <offset x="14.285714285714283" y="37.85714285714286"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_ES1_CANTEMIR">
+            <graphics>
+                <position x="795.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>T_ES1_CANTEMIR</value>
+                <graphics>
+                    <offset x="90.71428571428574" y="-10.714285714285708"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_PARKING">
+            <graphics>
+                <position x="285.0" y="1635.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_PARKING</value>
+                <graphics>
+                    <offset x="47.85714285714285" y="-14.285714285714285"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_POTERASI">
+            <graphics>
+                <position x="840.0" y="225.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_POTERASI</value>
+                <graphics>
+                    <offset x="73.0" y="42.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_OE_RADULESCU">
+            <graphics>
+                <position x="870.0" y="1125.0"/>
+            </graphics>
+            <name>
+                <value>T_OE_RADULESCU</value>
+                <graphics>
+                    <offset x="60.0" y="51.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_PED_0_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>T_PED_0_CANTEMIR</value>
+                <graphics>
+                    <offset x="58.33333333333336" y="28.333333333333318"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_PED_1_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1410.0"/>
+            </graphics>
+            <name>
+                <value>T_PED_1_CANTEMIR</value>
+                <graphics>
+                    <offset x="64.16666666666669" y="35.833333333333336"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_S0_CANTEMIR">
+            <graphics>
+                <position x="315.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>T_S0_CANTEMIR</value>
+                <graphics>
+                    <offset x="-2.220446049250313E-16" y="-8.571428571428568"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_S1_CANTEMIR">
+            <graphics>
+                <position x="795.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>T_S1_CANTEMIR</value>
+                <graphics>
+                    <offset x="104.28571428571423" y="36.42857142857143"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_LANARIEI">
+            <graphics>
+                <position x="840.0" y="2055.0"/>
+            </graphics>
+            <name>
+                <value>T_U_LANARIEI</value>
+                <graphics>
+                    <offset x="66.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_PARKING">
+            <graphics>
+                <position x="285.0" y="1725.0"/>
+            </graphics>
+            <name>
+                <value>T_U_PARKING</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_POTERASI">
+            <graphics>
+                <position x="840.0" y="165.0"/>
+            </graphics>
+            <name>
+                <value>T_U_POTERASI</value>
+                <graphics>
+                    <offset x="61.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U_RADULESCU">
+            <graphics>
+                <position x="870.0" y="1065.0"/>
+            </graphics>
+            <name>
+                <value>T_U_RADULESCU</value>
+                <graphics>
+                    <offset x="67.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U00_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="120.0"/>
+            </graphics>
+            <name>
+                <value>T_U00_CANTEMIR</value>
+                <graphics>
+                    <offset x="114.99999999999999" y="2.4999999999999956"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U01_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="420.0"/>
+            </graphics>
+            <name>
+                <value>T_U01_CANTEMIR</value>
+                <graphics>
+                    <offset x="125.8333333333332" y="-4.166666666666669"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U02_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="990.0"/>
+            </graphics>
+            <name>
+                <value>T_U02_CANTEMIR</value>
+                <graphics>
+                    <offset x="121.66666666666666" y="0.8333333333333338"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U03_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1260.0"/>
+            </graphics>
+            <name>
+                <value>T_U03_CANTEMIR</value>
+                <graphics>
+                    <offset x="125.83333333333336" y="2.4999999999999973"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U04_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1575.0"/>
+            </graphics>
+            <name>
+                <value>T_U04_CANTEMIR</value>
+                <graphics>
+                    <offset x="121.66666666666667" y="4.166666666666666"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U05_CANTEMIR">
+            <graphics>
+                <position x="405.0" y="1965.0"/>
+            </graphics>
+            <name>
+                <value>T_U05_CANTEMIR</value>
+                <graphics>
+                    <offset x="120.00000000000003" y="-4.166666666666672"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U1_LANARIEI">
+            <graphics>
+                <position x="300.0" y="2040.0"/>
+            </graphics>
+            <name>
+                <value>T_U1_LANARIEI</value>
+                <graphics>
+                    <offset x="61.0" y="-14.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U1_POTERASI">
+            <graphics>
+                <position x="270.0" y="195.0"/>
+            </graphics>
+            <name>
+                <value>T_U1_POTERASI</value>
+                <graphics>
+                    <offset x="63.0" y="-12.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U1_RADULESCU">
+            <graphics>
+                <position x="285.0" y="1095.0"/>
+            </graphics>
+            <name>
+                <value>T_U1_RADULESCU</value>
+                <graphics>
+                    <offset x="58.0" y="-9.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U10_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="270.0"/>
+            </graphics>
+            <name>
+                <value>T_U10_CANTEMIR</value>
+                <graphics>
+                    <offset x="-7.5" y="4.999999999999997"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U11_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="780.0"/>
+            </graphics>
+            <name>
+                <value>T_U11_CANTEMIR</value>
+                <graphics>
+                    <offset x="-3.3333333333333335" y="4.9999999999999964"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U12_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1200.0"/>
+            </graphics>
+            <name>
+                <value>T_U12_CANTEMIR</value>
+                <graphics>
+                    <offset x="-5.833333333333333" y="1.6666666666666614"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U13_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="1590.0"/>
+            </graphics>
+            <name>
+                <value>T_U13_CANTEMIR</value>
+                <graphics>
+                    <offset x="-0.8333333333333331" y="-10.83333333333334"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U14_CANTEMIR">
+            <graphics>
+                <position x="690.0" y="2130.0"/>
+            </graphics>
+            <name>
+                <value>T_U14_CANTEMIR</value>
+                <graphics>
+                    <offset x="0.8333333333333336" y="-10.000000000000005"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="P_A01_CANTEMIR to T_U02_CANTEMIR" source="P_A01_CANTEMIR" target="T_U02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="896" curvePoint="false"/>
+            <arcpath id="001" x="415" y="996" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_C1_CANTEMIR to P_X12_CANTEMIR" source="T_C1_CANTEMIR" target="P_X12_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="696" y="616" curvePoint="false"/>
+            <arcpath id="001" x="700" y="672" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X00_CANTEMIR to T_U00_CANTEMIR" source="P_X00_CANTEMIR" target="T_U00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="192" curvePoint="false"/>
+            <arcpath id="001" x="421" y="137" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X00_CANTEMIR to T_U1_POTERASI" source="P_X00_CANTEMIR" target="T_U1_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="402" y="207" curvePoint="false"/>
+            <arcpath id="001" x="286" y="212" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X01_CANTEMIR to T_U01_CANTEMIR" source="P_X01_CANTEMIR" target="T_U01_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="507" curvePoint="false"/>
+            <arcpath id="001" x="421" y="437" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X02_CANTEMIR to T_C0_CANTEMIR" source="P_X02_CANTEMIR" target="T_C0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="687" curvePoint="false"/>
+            <arcpath id="001" x="421" y="617" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X03_CANTEMIR to P_U1_RADULESCU" source="P_X03_CANTEMIR" target="T_U1_RADULESCU">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="402" y="1107" curvePoint="false"/>
+            <arcpath id="001" x="301" y="1112" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X03_CANTEMIR to T_U02_CANTEMIR" source="P_X03_CANTEMIR" target="T_U02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="1092" curvePoint="false"/>
+            <arcpath id="001" x="421" y="1007" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X04_CANTEMIR to T_U03_CANTEMIR" source="P_X04_CANTEMIR" target="T_U03_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="1332" curvePoint="false"/>
+            <arcpath id="001" x="421" y="1277" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X05_CANTEMIR to T_U_PARKING" source="P_X05_CANTEMIR" target="T_U_PARKING">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="403" y="1684" curvePoint="false"/>
+            <arcpath id="001" x="301" y="1742" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X05_CANTEMIR to T_U04_CANTEMIR" source="P_X05_CANTEMIR" target="T_U04_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="1662" curvePoint="false"/>
+            <arcpath id="001" x="421" y="1592" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X06_CANTEMIR to P_U05_CANTEMIR" source="P_X06_CANTEMIR" target="T_U05_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="2037" curvePoint="false"/>
+            <arcpath id="001" x="421" y="1982" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X06_CANTEMIR to P_U1_LANARIEI" source="P_X06_CANTEMIR" target="T_U1_LANARIEI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="402" y="2052" curvePoint="false"/>
+            <arcpath id="001" x="316" y="2057" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X10_CANTEMIR to T_U_POTERASI" source="P_X10_CANTEMIR" target="T_U_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="204" curvePoint="false"/>
+            <arcpath id="001" x="846" y="182" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X11_CANTEMIR to P_C1_CANTEMIR" source="P_X11_CANTEMIR" target="T_C1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="521" curvePoint="false"/>
+            <arcpath id="001" x="705" y="607" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X13_CANTEMIR to T_U_RADULESCU" source="P_X13_CANTEMIR" target="T_U_RADULESCU">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="1105" curvePoint="false"/>
+            <arcpath id="001" x="876" y="1082" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X13_CANTEMIR to T_U12_CANTEMIR" source="P_X13_CANTEMIR" target="T_U12_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="1121" curvePoint="false"/>
+            <arcpath id="001" x="705" y="1207" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X14_CANTEMIR to T_U13_CANTEMIR" source="P_X14_CANTEMIR" target="T_U13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="1532" curvePoint="false"/>
+            <arcpath id="001" x="707" y="1597" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X15_CANTEMIR to P_U_LANARIEI" source="P_X15_CANTEMIR" target="T_U_LANARIEI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="2067" curvePoint="false"/>
+            <arcpath id="001" x="846" y="2072" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_X15_CANTEMIR to T_U14_CANTEMIR" source="P_X15_CANTEMIR" target="T_U14_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="2081" curvePoint="false"/>
+            <arcpath id="001" x="705" y="2137" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P0 to T0" source="P_OE_CANTEMIRSUD" target="T_U00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="71" curvePoint="false"/>
+            <arcpath id="001" x="415" y="126" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P10 to T4" source="P_A10_CANTEMIR" target="T_U10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="701" y="342" curvePoint="false"/>
+            <arcpath id="001" x="701" y="286" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P11 to T5" source="P_X10_CANTEMIR" target="T_E10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="192" curvePoint="false"/>
+            <arcpath id="001" x="707" y="137" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P11 to T8" source="P_X10_CANTEMIR" target="T_OE_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="210" curvePoint="false"/>
+            <arcpath id="001" x="846" y="242" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P12 to T7" source="P_A_POTERASI" target="T_U_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1017" y="177" curvePoint="false"/>
+            <arcpath id="001" x="856" y="182" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P14 to T17" source="P_A02_CANTEMIR" target="T_U03_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="1226" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1266" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P16 to T12" source="P_X06_CANTEMIR" target="T_E04_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="2066" curvePoint="false"/>
+            <arcpath id="001" x="420" y="2137" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P17 to T14" source="P_X15_CANTEMIR" target="T_E13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="2052" curvePoint="false"/>
+            <arcpath id="001" x="706" y="1802" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P18 to T11" source="P_A04_CANTEMIR" target="T_U05_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="1901" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1971" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P19 to T24" source="P_A13_CANTEMIR" target="T_U13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="1662" curvePoint="false"/>
+            <arcpath id="001" x="702" y="1607" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P20 to T9" source="P_A1_LANARIEI" target="T_U1_LANARIEI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="206" y="2052" curvePoint="false"/>
+            <arcpath id="001" x="306" y="2052" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P21 to T10" source="P_A_LANARIEI" target="T_U_LANARIEI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="957" y="2067" curvePoint="false"/>
+            <arcpath id="001" x="856" y="2067" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P22 to T18" source="P_X04_CANTEMIR" target="T_PED_0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="1361" curvePoint="false"/>
+            <arcpath id="001" x="420" y="1417" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P23 to T18" source="P_CANTEMIR_TL_1" target="T_PED_0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="507" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="431" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P24 to T18" source="USERREQ_CANTEMIR_0" target="T_PED_0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="309" y="1369" curvePoint="false"/>
+            <arcpath id="001" x="401" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P25 to T18" source="P_CANTEMIR_PTL_1" target="T_PED_0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,2</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="311" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="401" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P27 to T19" source="P_A03_CANTEMIR" target="T_U04_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="1511" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1581" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P28 to T21" source="P_X05_CANTEMIR" target="T_OE_PARKING">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="402" y="1673" curvePoint="false"/>
+            <arcpath id="001" x="301" y="1652" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P30 to T22" source="P_A_PARKING" target="T_U_PARKING">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="191" y="1737" curvePoint="false"/>
+            <arcpath id="001" x="291" y="1737" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P31 to T25" source="P_X14_CANTEMIR" target="T_PED_1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="1503" curvePoint="false"/>
+            <arcpath id="001" x="706" y="1427" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P32 to T23" source="P_A12_CANTEMIR" target="T_U12_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="701" y="1272" curvePoint="false"/>
+            <arcpath id="001" x="701" y="1216" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P33 to T25" source="P_CANTEMIR_TL_2" target="T_PED_1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="641" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="686" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P35 to T25" source="P_CANTEMIR_PTL_2" target="T_PED_1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="837" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="716" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P36 to T25" source="OP_REQ_CANTEMIR_2" target="T_PED_1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="837" y="1475" curvePoint="false"/>
+            <arcpath id="001" x="716" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P38 to T28" source="P_A_RADULESCU" target="T_U_RADULESCU">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="972" y="1077" curvePoint="false"/>
+            <arcpath id="001" x="886" y="1077" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P3 to T13" source="P_OE_CANTEMIR" target="T_U14_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="701" y="2217" curvePoint="false"/>
+            <arcpath id="001" x="701" y="2146" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P40 to T26" source="P_X13_CANTEMIR" target="T_E12_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="1092" curvePoint="false"/>
+            <arcpath id="001" x="706" y="1007" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P40 to T29" source="P_X13_CANTEMIR" target="T_OE_RADULESCU">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="1110" curvePoint="false"/>
+            <arcpath id="001" x="876" y="1142" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P41 to T31" source="P_A11_CANTEMIR" target="T_U11_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="867" curvePoint="false"/>
+            <arcpath id="001" x="702" y="797" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T32" source="P_X12_CANTEMIR" target="T_C1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="672" curvePoint="false"/>
+            <arcpath id="001" x="706" y="617" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P42 to T33" source="P_X12_CANTEMIR" target="T_S1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="684" curvePoint="false"/>
+            <arcpath id="001" x="792" y="670" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P43 to T34" source="P_STATION1_CANTEMIR" target="T_ES1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="806" y="597" curvePoint="false"/>
+            <arcpath id="001" x="806" y="556" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P44 to T34" source="USERREQ_TAXI_CANTEMIR_1" target="T_ES1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="942" y="552" curvePoint="false"/>
+            <arcpath id="001" x="821" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P45 to T30" source="P_X11_CANTEMIR" target="T_E11_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="492" curvePoint="false"/>
+            <arcpath id="001" x="707" y="437" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P46 to T36" source="P_X01_CANTEMIR" target="T_C0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="536" curvePoint="false"/>
+            <arcpath id="001" x="420" y="607" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P46 to T37" source="P_X01_CANTEMIR" target="T_S0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="402" y="527" curvePoint="false"/>
+            <arcpath id="001" x="341" y="552" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P47 to T38" source="P_STATION0_CANTEMIR" target="T_ES0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="327" y="626" curvePoint="false"/>
+            <arcpath id="001" x="327" y="667" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P48 to T15" source="P_X02_CANTEMIR" target="T_E01_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="716" curvePoint="false"/>
+            <arcpath id="001" x="420" y="787" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P49 to T38" source="USERREQ_TAXI_CANTEMIR_0" target="T_ES0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="221" y="658" curvePoint="false"/>
+            <arcpath id="001" x="312" y="670" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P4 to T1" source="P_A1_POTERASI" target="T_U1_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="191" y="207" curvePoint="false"/>
+            <arcpath id="001" x="276" y="207" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P5 to T2" source="P_X00_CANTEMIR" target="T_E00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="417" y="221" curvePoint="false"/>
+            <arcpath id="001" x="420" y="277" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P6 to T35" source="P_A00_CANTEMIR" target="T_U01_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="371" curvePoint="false"/>
+            <arcpath id="001" x="415" y="426" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P7 to T16" source="P_X03_CANTEMIR" target="T_E02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="418" y="1121" curvePoint="false"/>
+            <arcpath id="001" x="420" y="1147" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P8 to T3" source="P_A1_RADULESCU" target="T_U1_RADULESCU">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="191" y="1107" curvePoint="false"/>
+            <arcpath id="001" x="291" y="1107" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_C0_CANTEMIR to P_X01_CANTEMIR" source="T_C0_CANTEMIR" target="P_X01_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="410" y="606" curvePoint="false"/>
+            <arcpath id="001" x="415" y="536" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E00_CANTEMIR to P_X00_CANTEMIR" source="T_E00_CANTEMIR" target="P_X00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="410" y="276" curvePoint="false"/>
+            <arcpath id="001" x="415" y="221" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E01_CANTEMIR to P_A01_CANTEMIR" source="T_E01_CANTEMIR" target="P_A01_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="796" curvePoint="false"/>
+            <arcpath id="001" x="416" y="867" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E01_CANTEMIR to P_X02_CANTEMIR" source="T_E01_CANTEMIR" target="P_X02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="410" y="786" curvePoint="false"/>
+            <arcpath id="001" x="415" y="716" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E02_CANTEMIR to P_X03_CANTEMIR" source="T_E02_CANTEMIR" target="P_X03_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="410" y="1146" curvePoint="false"/>
+            <arcpath id="001" x="414" y="1121" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E03_CANTEMIR to P_X05_CANTEMIR" source="T_E03_CANTEMIR" target="P_X05_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="415" y="1791" curvePoint="false"/>
+            <arcpath id="001" x="416" y="1691" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E04_CANTEMIR to P_X06_CANTEMIR" source="T_E04_CANTEMIR" target="P_X06_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="410" y="2136" curvePoint="false"/>
+            <arcpath id="001" x="415" y="2066" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E10_CANTEMIR to P_X10_CANTEMIR" source="T_E10_CANTEMIR" target="P_X10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="697" y="136" curvePoint="false"/>
+            <arcpath id="001" x="700" y="192" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E11_CANTEMIR to P_X11_CANTEMIR" source="T_E11_CANTEMIR" target="P_X11_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="697" y="436" curvePoint="false"/>
+            <arcpath id="001" x="700" y="492" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E12_CANTEMIR to P_X13_CANTEMIR" source="T_E12_CANTEMIR" target="P_X13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="696" y="1006" curvePoint="false"/>
+            <arcpath id="001" x="700" y="1092" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_E13_CANTEMIR to P_X15_CANTEMIR" source="T_E13_CANTEMIR" target="P_X15_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="696" y="1801" curvePoint="false"/>
+            <arcpath id="001" x="701" y="2052" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_OE_PARKING to P_X05_CANTEMIR" source="T_OE_PARKING" target="P_X05_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="302" y="1642" curvePoint="false"/>
+            <arcpath id="001" x="402" y="1672" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_OE_POTERASI to P_X10_CANTEMIR" source="T_OE_POTERASI" target="P_X10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="847" y="232" curvePoint="false"/>
+            <arcpath id="001" x="716" y="209" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_OE_RADULESCU to P_X13_CANTEMIR" source="T_OE_RADULESCU" target="P_X13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="877" y="1132" curvePoint="false"/>
+            <arcpath id="001" x="716" y="1109" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_PED_0_CANTEMIR to P_X04_CANTEMIR" source="T_PED_0_CANTEMIR" target="P_X04_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="410" y="1416" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1361" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_PED_1_CANTEMIR to P_X14_CANTEMIR" source="T_PED_1_CANTEMIR" target="P_X14_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="696" y="1426" curvePoint="false"/>
+            <arcpath id="001" x="700" y="1503" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_U_POTERASI to P_A_POTERASI" source="T_U_POTERASI" target="P_A_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="857" y="172" curvePoint="false"/>
+            <arcpath id="001" x="1017" y="176" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_U02_CANTEMIR to P_X03_CANTEMIR" source="T_U02_CANTEMIR" target="P_X03_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="1006" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1092" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_U12_CANTEMIR to P_X13_CANTEMIR" source="T_U12_CANTEMIR" target="P_X13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="695" y="1206" curvePoint="false"/>
+            <arcpath id="001" x="700" y="1121" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T0 to P5" source="T_U00_CANTEMIR" target="P_X00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="136" curvePoint="false"/>
+            <arcpath id="001" x="415" y="192" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T10 to P17" source="T_U_LANARIEI" target="P_X15_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="847" y="2062" curvePoint="false"/>
+            <arcpath id="001" x="716" y="2066" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T11 to P16" source="T_U05_CANTEMIR" target="P_X06_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="1981" curvePoint="false"/>
+            <arcpath id="001" x="415" y="2037" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T12 to P2" source="T_E04_CANTEMIR" target="P_A_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="2146" curvePoint="false"/>
+            <arcpath id="001" x="416" y="2217" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T13 to P17" source="T_U14_CANTEMIR" target="P_X15_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="695" y="2136" curvePoint="false"/>
+            <arcpath id="001" x="700" y="2081" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T14 to P19" source="T_E13_CANTEMIR" target="P_A13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="700" y="1791" curvePoint="false"/>
+            <arcpath id="001" x="701" y="1691" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T16 to P14" source="T_E02_CANTEMIR" target="P_A02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="1156" curvePoint="false"/>
+            <arcpath id="001" x="416" y="1197" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T17 to P22" source="T_U03_CANTEMIR" target="P_X04_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="1276" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1332" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T18 to P23" source="T_PED_0_CANTEMIR" target="P_CANTEMIR_TL_1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="431" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="507" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T18 to P25" source="T_PED_0_CANTEMIR" target="P_CANTEMIR_PTL_1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="401" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="311" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T18 to P26" source="T_PED_0_CANTEMIR" target="OP_REQ_CANTEMIR_1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="401" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="309" y="1474" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T18 to P27" source="T_PED_0_CANTEMIR" target="P_A03_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="1426" curvePoint="false"/>
+            <arcpath id="001" x="416" y="1482" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T19 to P28" source="T_U04_CANTEMIR" target="P_X05_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="1591" curvePoint="false"/>
+            <arcpath id="001" x="415" y="1662" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T1 to P5" source="T_U1_POTERASI" target="P_X00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="287" y="202" curvePoint="false"/>
+            <arcpath id="001" x="402" y="206" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T20 to P18" source="T_E03_CANTEMIR" target="P_A04_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="1801" curvePoint="false"/>
+            <arcpath id="001" x="416" y="1872" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T21 to P29" source="T_OE_PARKING" target="P_OE_PARKING">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="291" y="1647" curvePoint="false"/>
+            <arcpath id="001" x="191" y="1647" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T22 to P28" source="T_U_PARKING" target="P_X05_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="302" y="1732" curvePoint="false"/>
+            <arcpath id="001" x="403" y="1683" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T24 to P31" source="T_U13_CANTEMIR" target="P_X14_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="697" y="1596" curvePoint="false"/>
+            <arcpath id="001" x="700" y="1532" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P32" source="T_PED_1_CANTEMIR" target="P_A12_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="700" y="1416" curvePoint="false"/>
+            <arcpath id="001" x="701" y="1301" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P33" source="T_PED_1_CANTEMIR" target="P_CANTEMIR_TL_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="686" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="641" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P34" source="T_PED_1_CANTEMIR" target="USERREQ_CANTEMIR_1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="837" y="1367" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T25 to P35" source="T_PED_1_CANTEMIR" target="P_CANTEMIR_PTL_2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="716" y="1422" curvePoint="false"/>
+            <arcpath id="001" x="837" y="1422" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T26 to P41" source="T_E12_CANTEMIR" target="P_A11_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="700" y="996" curvePoint="false"/>
+            <arcpath id="001" x="701" y="896" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T28 to P40" source="T_U_RADULESCU" target="P_X13_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="877" y="1072" curvePoint="false"/>
+            <arcpath id="001" x="716" y="1103" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T29 to P39" source="T_OE_RADULESCU" target="P_OE_RADULESCU">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="886" y="1137" curvePoint="false"/>
+            <arcpath id="001" x="972" y="1137" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T2 to P6" source="T_E00_CANTEMIR" target="P_A00_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="416" y="286" curvePoint="false"/>
+            <arcpath id="001" x="416" y="342" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T30 to P10" source="T_E11_CANTEMIR" target="P_A10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="427" curvePoint="false"/>
+            <arcpath id="001" x="702" y="371" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T31 to P42" source="T_U11_CANTEMIR" target="P_X12_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="787" curvePoint="false"/>
+            <arcpath id="001" x="702" y="701" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T32 to P45" source="T_C1_CANTEMIR" target="P_X11_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="695" y="606" curvePoint="false"/>
+            <arcpath id="001" x="700" y="521" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T33 to P43" source="T_S1_CANTEMIR" target="P_STATION1_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="807" y="667" curvePoint="false"/>
+            <arcpath id="001" x="807" y="626" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T34 to P45" source="T_ES1_CANTEMIR" target="P_X11_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="791" y="552" curvePoint="false"/>
+            <arcpath id="001" x="714" y="513" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T35 to P46" source="T_U01_CANTEMIR" target="P_X01_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="436" curvePoint="false"/>
+            <arcpath id="001" x="415" y="507" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T36 to P48" source="T_C0_CANTEMIR" target="P_X02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="411" y="616" curvePoint="false"/>
+            <arcpath id="001" x="415" y="687" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T37 to P47" source="T_S0_CANTEMIR" target="P_STATION0_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="326" y="556" curvePoint="false"/>
+            <arcpath id="001" x="326" y="597" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T38 to P48" source="T_ES0_CANTEMIR" target="P_X02_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="342" y="671" curvePoint="false"/>
+            <arcpath id="001" x="402" y="696" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T3 to P7" source="T_U1_RADULESCU" target="P_X03_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="302" y="1102" curvePoint="false"/>
+            <arcpath id="001" x="402" y="1106" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T4 to P11" source="T_U10_CANTEMIR" target="P_X10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="700" y="276" curvePoint="false"/>
+            <arcpath id="001" x="701" y="221" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T5 to P1" source="T_E10_CANTEMIR" target="P_A_CANTEMIRSUD">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="702" y="127" curvePoint="false"/>
+            <arcpath id="001" x="702" y="71" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T7 to P11" source="T_U_POTERASI" target="P_X10_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="847" y="172" curvePoint="false"/>
+            <arcpath id="001" x="716" y="203" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T8 to P13" source="T_OE_POTERASI" target="P_OE_POTERASI">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="856" y="237" curvePoint="false"/>
+            <arcpath id="001" x="1017" y="237" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T9 to P16" source="T_U1_LANARIEI" target="P_X06_CANTEMIR">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="317" y="2047" curvePoint="false"/>
+            <arcpath id="001" x="402" y="2051" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>
