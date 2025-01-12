@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+    <net id="Net-One" type="P/T net">
+        <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <place id="g1r2r3r4">
+            <graphics>
+                <position x="510.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>g1r2r3r4</value>
+                <graphics>
+                    <offset x="33.0" y="-7.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="in1">
+            <graphics>
+                <position x="453.75" y="273.75"/>
+            </graphics>
+            <name>
+                <value>in1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="in2">
+            <graphics>
+                <position x="963.75" y="405.0"/>
+            </graphics>
+            <name>
+                <value>in2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="in3">
+            <graphics>
+                <position x="896.25" y="877.5"/>
+            </graphics>
+            <name>
+                <value>in3</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="in4">
+            <graphics>
+                <position x="270.0" y="795.0"/>
+            </graphics>
+            <name>
+                <value>in4</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP1">
+            <graphics>
+                <position x="521.25" y="510.0"/>
+            </graphics>
+            <name>
+                <value>OP1</value>
+                <graphics>
+                    <offset x="0.0" y="19.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP2">
+            <graphics>
+                <position x="768.75" y="510.0"/>
+            </graphics>
+            <name>
+                <value>OP2</value>
+                <graphics>
+                    <offset x="13.0" y="-2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP3">
+            <graphics>
+                <position x="731.25" y="682.5"/>
+            </graphics>
+            <name>
+                <value>OP3</value>
+                <graphics>
+                    <offset x="31.0" y="-4.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="OP4">
+            <graphics>
+                <position x="521.25" y="682.5"/>
+            </graphics>
+            <name>
+                <value>OP4</value>
+                <graphics>
+                    <offset x="29.0" y="-4.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_f1">
+            <graphics>
+                <position x="453.75" y="322.5"/>
+            </graphics>
+            <name>
+                <value>P_f1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_f2">
+            <graphics>
+                <position x="930.0" y="315.0"/>
+            </graphics>
+            <name>
+                <value>P_f2</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_f3">
+            <graphics>
+                <position x="1001.25" y="922.5"/>
+            </graphics>
+            <name>
+                <value>P_f3</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_f4">
+            <graphics>
+                <position x="270.0" y="885.0"/>
+            </graphics>
+            <name>
+                <value>P_f4</value>
+                <graphics>
+                    <offset x="-6.0" y="25.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_ini">
+            <graphics>
+                <position x="645.0" y="562.5"/>
+            </graphics>
+            <name>
+                <value>P_ini</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1g2r3r4">
+            <graphics>
+                <position x="900.0" y="480.0"/>
+            </graphics>
+            <name>
+                <value>r1g2r3r4</value>
+                <graphics>
+                    <offset x="7.0" y="-2.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1r2g3r4">
+            <graphics>
+                <position x="750.0" y="825.0"/>
+            </graphics>
+            <name>
+                <value>r1r2g3r4</value>
+                <graphics>
+                    <offset x="33.0" y="-6.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1r2r3g4">
+            <graphics>
+                <position x="330.0" y="750.0"/>
+            </graphics>
+            <name>
+                <value>r1r2r3g4</value>
+                <graphics>
+                    <offset x="1.0" y="6.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1r2r3r4">
+            <graphics>
+                <position x="330.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>r1r2r3r4</value>
+                <graphics>
+                    <offset x="28.0" y="-4.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1r2r3y4">
+            <graphics>
+                <position x="330.0" y="585.0"/>
+            </graphics>
+            <name>
+                <value>r1r2r3y4</value>
+                <graphics>
+                    <offset x="2.0" y="0.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1r2y3r4">
+            <graphics>
+                <position x="540.0" y="825.0"/>
+            </graphics>
+            <name>
+                <value>r1r2y3r4</value>
+                <graphics>
+                    <offset x="31.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="r1y2r3r4">
+            <graphics>
+                <position x="900.0" y="690.0"/>
+            </graphics>
+            <name>
+                <value>r1y2r3r4</value>
+                <graphics>
+                    <offset x="5.0" y="-5.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="y1r2r3r4">
+            <graphics>
+                <position x="690.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>y1r2r3r4</value>
+                <graphics>
+                    <offset x="32.0" y="-5.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <transition id="t_11">
+            <graphics>
+                <position x="420.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>t_11</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_12">
+            <graphics>
+                <position x="600.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>t_12</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_13">
+            <graphics>
+                <position x="780.0" y="390.0"/>
+            </graphics>
+            <name>
+                <value>t_13</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_14">
+            <graphics>
+                <position x="900.0" y="585.0"/>
+            </graphics>
+            <name>
+                <value>t_14</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>270</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_15">
+            <graphics>
+                <position x="900.0" y="780.0"/>
+            </graphics>
+            <name>
+                <value>t_15</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_16">
+            <graphics>
+                <position x="645.0" y="825.0"/>
+            </graphics>
+            <name>
+                <value>t_16</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_17">
+            <graphics>
+                <position x="450.0" y="825.0"/>
+            </graphics>
+            <name>
+                <value>t_17</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_18">
+            <graphics>
+                <position x="330.0" y="660.0"/>
+            </graphics>
+            <name>
+                <value>t_18</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_19">
+            <graphics>
+                <position x="330.0" y="495.0"/>
+            </graphics>
+            <name>
+                <value>t_19</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>5.0</value>
+            </rate>
+            <timed>
+                <value>true</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_f1">
+            <graphics>
+                <position x="573.75" y="273.75"/>
+            </graphics>
+            <name>
+                <value>t_f1</value>
+                <graphics>
+                    <offset x="26.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_f2">
+            <graphics>
+                <position x="1020.0" y="296.25"/>
+            </graphics>
+            <name>
+                <value>t_f2</value>
+                <graphics>
+                    <offset x="23.0" y="-8.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_f3">
+            <graphics>
+                <position x="806.25" y="922.5"/>
+            </graphics>
+            <name>
+                <value>t_f3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_f4">
+            <graphics>
+                <position x="180.0" y="825.0"/>
+            </graphics>
+            <name>
+                <value>t_f4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="t_ini">
+            <graphics>
+                <position x="645.0" y="622.5"/>
+            </graphics>
+            <name>
+                <value>t_ini</value>
+                <graphics>
+                    <offset x="24.0" y="33.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>90</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <arc id="g1r2r3r4 to t_12" source="g1r2r3r4" target="t_12">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="533" y="400" curvePoint="false"/>
+            <arcpath id="001" x="605" y="395" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="in1 to t_f1" source="in1" target="t_f1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="478" y="281" curvePoint="false"/>
+            <arcpath id="001" x="578" y="278" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="in2 to t_f2" source="in2" target="t_f2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="980" y="401" curvePoint="false"/>
+            <arcpath id="001" x="1030" y="320" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="in3 to t_f3" source="in3" target="t_f3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="891" y="893" curvePoint="false"/>
+            <arcpath id="001" x="820" y="926" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="in4 to t_f4" source="in4" target="t_f4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="265" y="808" curvePoint="false"/>
+            <arcpath id="001" x="195" y="830" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_f1 to t_f1" source="P_f1" target="t_f1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="476" y="326" curvePoint="false"/>
+            <arcpath id="001" x="578" y="288" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_f2 to t_f2" source="P_f2" target="t_f2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="953" y="321" curvePoint="false"/>
+            <arcpath id="001" x="1023" y="306" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_f3 to t_f3" source="P_f3" target="t_f3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="995" y="931" curvePoint="false"/>
+            <arcpath id="001" x="820" y="936" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_f4 to t_f4" source="P_f4" target="t_f4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="266" y="886" curvePoint="false"/>
+            <arcpath id="001" x="193" y="840" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_ini to t_ini" source="P_ini" target="t_ini">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="653" y="586" curvePoint="false"/>
+            <arcpath id="001" x="651" y="626" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1g2r3r4 to t_14" source="r1g2r3r4" target="t_14">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="910" y="503" curvePoint="false"/>
+            <arcpath id="001" x="910" y="590" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1r2g3r4 to t_16" source="r1r2g3r4" target="t_16">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="745" y="835" curvePoint="false"/>
+            <arcpath id="001" x="658" y="840" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1r2r3g4 to t_18" source="r1r2r3g4" target="t_18">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="745" curvePoint="false"/>
+            <arcpath id="001" x="338" y="673" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1r2r3r4 to t_10" source="r1r2r3r4" target="t_11">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="353" y="400" curvePoint="false"/>
+            <arcpath id="001" x="423" y="400" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1r2r3y4 to t_19" source="r1r2r3y4" target="t_19">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="580" curvePoint="false"/>
+            <arcpath id="001" x="333" y="508" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1r2y3r4 to t_17" source="r1r2y3r4" target="t_17">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="535" y="835" curvePoint="false"/>
+            <arcpath id="001" x="463" y="840" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="r1y2r3r4 to t_15" source="r1y2r3r4" target="t_15">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="910" y="713" curvePoint="false"/>
+            <arcpath id="001" x="913" y="785" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_10 to g1r2r3r4" source="t_11" target="g1r2r3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="435" y="395" curvePoint="false"/>
+            <arcpath id="001" x="505" y="398" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_10 to OP1" source="t_11" target="OP1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="433" y="405" curvePoint="false"/>
+            <arcpath id="001" x="520" y="508" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_10 to P_f1" source="t_11" target="P_f1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="430" y="385" curvePoint="false"/>
+            <arcpath id="001" x="455" y="345" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_12 to OP1" source="t_12" target="OP1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="603" y="405" curvePoint="false"/>
+            <arcpath id="001" x="538" y="506" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_12 to y1r2r3r4" source="t_12" target="y1r2r3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="613" y="400" curvePoint="false"/>
+            <arcpath id="001" x="685" y="400" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_13 to OP1" source="t_13" target="OP1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="783" y="405" curvePoint="false"/>
+            <arcpath id="001" x="543" y="513" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_13 to OP2" source="t_13" target="OP2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="790" y="415" curvePoint="false"/>
+            <arcpath id="001" x="780" y="505" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_13 to P_f2" source="t_13" target="P_f2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="795" y="395" curvePoint="false"/>
+            <arcpath id="001" x="870" y="351" curvePoint="false"/>
+            <arcpath id="002" x="925" y="330" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_13 to r1g2r3r4" source="t_13" target="r1g2r3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="793" y="405" curvePoint="false"/>
+            <arcpath id="001" x="910" y="408" curvePoint="false"/>
+            <arcpath id="002" x="910" y="475" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_14 to OP2" source="t_14" target="OP2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="895" y="593" curvePoint="false"/>
+            <arcpath id="001" x="790" y="526" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_14 to r1y2r3r4" source="t_14" target="r1y2r3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="910" y="600" curvePoint="false"/>
+            <arcpath id="001" x="910" y="685" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_15 to OP2" source="t_15" target="OP2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="903" y="783" curvePoint="false"/>
+            <arcpath id="001" x="785" y="533" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_15 to OP3" source="t_15" target="OP3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="893" y="790" curvePoint="false"/>
+            <arcpath id="001" x="753" y="700" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_15 to P_f3" source="t_15" target="P_f3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="913" y="795" curvePoint="false"/>
+            <arcpath id="001" x="956" y="858" curvePoint="false"/>
+            <arcpath id="002" x="1001" y="920" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_15 to r1r2g3r4" source="t_15" target="r1r2g3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="903" y="793" curvePoint="false"/>
+            <arcpath id="001" x="905" y="845" curvePoint="false"/>
+            <arcpath id="002" x="773" y="835" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_16 to OP3" source="t_16" target="OP3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="660" y="830" curvePoint="false"/>
+            <arcpath id="001" x="733" y="705" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_16 to r1r2y3r4" source="t_16" target="r1r2y3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="648" y="835" curvePoint="false"/>
+            <arcpath id="001" x="563" y="835" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_17 to OP3" source="t_17" target="OP3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="465" y="830" curvePoint="false"/>
+            <arcpath id="001" x="726" y="698" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_17 to OP4" source="t_17" target="OP4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="460" y="820" curvePoint="false"/>
+            <arcpath id="001" x="523" y="705" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_17 to P_f4" source="t_17" target="P_f4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="460" y="850" curvePoint="false"/>
+            <arcpath id="001" x="436" y="896" curvePoint="false"/>
+            <arcpath id="002" x="293" y="895" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_17 to r1r2r3g4" source="t_17" target="r1r2r3g4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="453" y="835" curvePoint="false"/>
+            <arcpath id="001" x="341" y="843" curvePoint="false"/>
+            <arcpath id="002" x="340" y="773" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_18 to OP4" source="t_18" target="OP4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="353" y="670" curvePoint="false"/>
+            <arcpath id="001" x="515" y="690" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_18 to r1r2r3y4" source="t_18" target="r1r2r3y4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="663" curvePoint="false"/>
+            <arcpath id="001" x="338" y="608" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_19 to OP4" source="t_19" target="OP4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="343" y="510" curvePoint="false"/>
+            <arcpath id="001" x="520" y="681" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_19 to r1r2r3r4" source="t_19" target="r1r2r3r4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="338" y="498" curvePoint="false"/>
+            <arcpath id="001" x="338" y="413" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_ini to OP1" source="t_ini" target="OP1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="645" y="626" curvePoint="false"/>
+            <arcpath id="001" x="541" y="530" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_ini to OP2" source="t_ini" target="OP2">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="660" y="626" curvePoint="false"/>
+            <arcpath id="001" x="766" y="530" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_ini to OP3" source="t_ini" target="OP3">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="653" y="636" curvePoint="false"/>
+            <arcpath id="001" x="728" y="683" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="t_ini to OP4" source="t_ini" target="OP4">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="638" y="631" curvePoint="false"/>
+            <arcpath id="001" x="543" y="685" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="y1r2r3r4 to t_13" source="y1r2r3r4" target="t_13">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="713" y="398" curvePoint="false"/>
+            <arcpath id="001" x="785" y="395" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+    </net>
+</pnml>

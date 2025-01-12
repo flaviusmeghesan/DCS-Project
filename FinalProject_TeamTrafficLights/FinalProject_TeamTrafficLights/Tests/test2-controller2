@@ -1,0 +1,186 @@
+####################  Controller2 Started  #####################
+Waiting For Commands over this port:1082
+ASYNC Transition have been started T_f6
+ASYNC Transition have been started T_f5
+ASYNC Transition have been started T_f8
+ASYNC Transition have been started T_f5
+Controller2 PlaceList [r5r6r6br8(signal)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(red)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 1 ________________________________________________________
+Controller2 ExecutionList []
+[T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [iniT Temp Marking [] Delay:0,T_21 Temp Marking [r5r6r6br8(signal)] Delay:5]
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 2 ________________________________________________________
+Controller2 ExecutionList [T_21 Temp Marking [r5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 3 ________________________________________________________
+Controller2 ExecutionList [T_21 Temp Marking [r5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 4 ________________________________________________________
+Controller2 ExecutionList [T_21 Temp Marking [r5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 5 ________________________________________________________
+Controller2 ExecutionList [T_21 Temp Marking [r5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 6 ________________________________________________________
+Controller2 ExecutionList [T_21 Temp Marking [r5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[iniT conditions are false] Delay:0 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [T_21 Temp Marking [] Delay:5,T_22 Temp Marking [g5r6r6br8(signal)] Delay:5]
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 7 ________________________________________________________
+Controller2 ExecutionList [T_22 Temp Marking [g5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 8 ________________________________________________________
+Controller2 ExecutionList [T_22 Temp Marking [g5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 9 ________________________________________________________
+Controller2 ExecutionList [T_22 Temp Marking [g5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 10 ________________________________________________________
+Controller2 ExecutionList [T_22 Temp Marking [g5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 11 ________________________________________________________
+Controller2 ExecutionList [T_22 Temp Marking [g5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [T_22 Temp Marking [] Delay:5,T_23 Temp Marking [y5r6r6br8(signal)] Delay:5]
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 12 ________________________________________________________
+Controller2 ExecutionList [T_23 Temp Marking [y5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 13 ________________________________________________________
+Controller2 ExecutionList [T_23 Temp Marking [y5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 14 ________________________________________________________
+Controller2 ExecutionList [T_23 Temp Marking [y5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 15 ________________________________________________________
+Controller2 ExecutionList [T_23 Temp Marking [y5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(Null)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 16 ________________________________________________________
+Controller2 ExecutionList [T_23 Temp Marking [y5r6r6br8(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_24 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [T_23 Temp Marking [] Delay:5,T_24 Temp Marking [] Delay:5]
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 17 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 18 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 19 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 20 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 21 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 22 ________________________________________________________
+Controller2 ExecutionList []
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 23 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 24 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 25 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 26 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 27 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 28 ________________________________________________________
+Controller2 ExecutionList []
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 29 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 30 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 31 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 32 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Paused....
+Controller2 PlaceList [r5r6r6br8(Null)  g5r6r6br8(Null)  y5r6r6br8(Null)  r5g6r6br8(signal)  r5y6r6br8(Null)  r5r6g6br8(Null)  r5r6y6br8(Null)  r5r6r6bg8(Null)  r5r6r6by8(Null)  OP5(localhost-1084-P_TL5i)  OP6b(localhost-1084-P_TL6b)  OP6(localhost-1084-P_TL6)  OP8(localhost-1084-P_TL8i)  p_f5(Null)  p_f6(Null)  p_f6b(Null)  p_f8(Null)  in5(Null)  in6(Null)  in6b(Null)  in8(Null)]
+Controller2 ConstantPlaceList [ini(Null)  red(red)  green(green)  yellow(yellow)  Five(5)  Ten(10)]
+________________________________________ TICK 33 ________________________________________________________
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+[iniT conditions are false] Delay:0 [T_21 conditions are false] Delay:5 [T_22 conditions are false] Delay:5 [T_23 conditions are false] Delay:5 [t_25 conditions are false] Delay:5 [t_26 conditions are false] Delay:5 [t_27 conditions are false] Delay:5 [t_28 conditions are false] Delay:5 [t_29 conditions are false] Delay:5 
+Controller2 ExecutionList [T_24 Temp Marking [] Delay:5]
