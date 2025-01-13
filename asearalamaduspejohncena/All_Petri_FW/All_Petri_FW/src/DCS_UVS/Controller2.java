@@ -183,6 +183,7 @@ public class Controller2 {
         grdT_init.Activations.add(new Activation(t_init,"P_ini", TransitionOperation.SendOverNetwork, "op4"));
         grdT_init.Activations.add(new Activation(t_init,"P_ini", TransitionOperation.SendOverNetwork, "op_tram1"));
         grdT_init.Activations.add(new Activation(t_init,"P_ini", TransitionOperation.SendOverNetwork, "op_tram2"));
+        grdT_init.Activations.add(new Activation(t_init,"", TransitionOperation.MakeNull, "P_ini"));
 
         t_init.GuardMappingList.add(grdT_init);
 
