@@ -495,7 +495,7 @@ public class Intersection1 {
 
         GuardMapping grd_T_C_3 = new GuardMapping();
         grd_T_C_3.condition = T_C_3_CT1;
-        grd_T_C_3.Activations.add(new Activation(T_C_3, "P_X1_3", TransitionOperation.PopElementWithTargetToQueue,"P_X2_3"));
+        grd_T_C_3.Activations.add(new Activation(T_C_3, "P_X1_3", TransitionOperation.PopElementWithoutTargetToQueue,"P_X2_3"));
 
         T_C_3.GuardMappingList.add(grd_T_C_3);
 
@@ -690,8 +690,8 @@ public class Intersection1 {
         T_S_4.TransitionName = "T_S_4";
         T_S_4.InputPlaceName.add("P_X1_4");
 
-        Condition T_S_4_CT1 = new Condition(T_S_4, "P_X1_4", TransitionCondition.isBus);
-        Condition T_S_4_CT2 = new Condition(T_S_4, "P_STATION_4", TransitionCondition.HaveCarForMe);
+        Condition T_S_4_CT1 = new Condition(T_S_4, "P_X1_4", TransitionCondition.HaveBus);
+        Condition T_S_4_CT2 = new Condition(T_S_4, "P_X1_4", TransitionCondition.HaveCarForMe);
         T_S_4_CT1.SetNextCondition(LogicConnector.AND,T_S_4_CT2);
 
         GuardMapping grd_T_S_4 = new GuardMapping();
@@ -714,7 +714,7 @@ public class Intersection1 {
 
         GuardMapping grd_T_ES_4 = new GuardMapping();
         grd_T_ES_4.condition= T_ES_4_CT1;
-        grd_T_ES_4.Activations.add(new Activation(T_ES_4, "P_STATION_4", TransitionOperation.PopBusToQueue,"P_X2_4"));
+        grd_T_ES_4.Activations.add(new Activation(T_ES_4, "P_STATION_4", TransitionOperation.PopElementWithoutTargetToQueue,"P_X2_4"));
 
         T_ES_4.GuardMappingList.add(grd_T_ES_4);
         T_ES_4.Delay = 2;
@@ -733,9 +733,10 @@ public class Intersection1 {
 
         GuardMapping grd_T_C_4 = new GuardMapping();
         grd_T_C_4.condition = T_C_4_CT1;
-        grd_T_C_4.Activations.add(new Activation(T_C_4, "P_X1_4", TransitionOperation.PopElementWithTargetToQueue,"P_X2_4"));
+        grd_T_C_4.Activations.add(new Activation(T_C_4, "P_X1_4", TransitionOperation.PopElementWithoutTargetToQueue,"P_X2_4"));
 
         T_C_4.GuardMappingList.add(grd_T_C_4);
+
 
         T_C_4.Delay = 2;
         pn.Transitions.add(T_C_4);
