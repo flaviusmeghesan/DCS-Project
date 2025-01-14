@@ -11,7 +11,7 @@ public class Intersection2 {
     public static void main(String[] args) {
         PetriNet pn = new PetriNet();
         pn.PetriNetName = "Main Petri";
-        pn.NetworkPort = 1080;
+        pn.NetworkPort = 1082;
 
         DataCar P_A_10 = new DataCar();
         P_A_10.SetName("P_A_10");

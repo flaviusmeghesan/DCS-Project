@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="ISO-8859-1"?><pnml>
     <net id="Net-One" type="P/T net">
         <token id="Default" enabled="true" red="0" green="0" blue="0"/>
+        <labels x="1314" y="497" width="120" height="36" border="true">
+            <text>P_A02_CANTEMIR
+</text>
+        </labels>
+        <place id="OP_REQ_20_1">
+            <graphics>
+                <position x="1884.0" y="698.0"/>
+            </graphics>
+            <name>
+                <value>OP_REQ_20_1</value>
+                <graphics>
+                    <offset x="34.0" y="45.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
         <place id="P_A_20">
             <graphics>
                 <position x="1497.0" y="267.0"/>
@@ -228,7 +252,7 @@
             <name>
                 <value>P_OE_20</value>
                 <graphics>
-                    <offset x="0.0" y="0.0"/>
+                    <offset x="36.0" y="-4.0"/>
                 </graphics>
             </name>
             <initialMarking>
@@ -301,6 +325,86 @@
                 <value>0</value>
             </capacity>
         </place>
+        <place id="P_OE2_20">
+            <graphics>
+                <position x="1882.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>P_OE2_20</value>
+                <graphics>
+                    <offset x="20.0" y="-19.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_PED_TL">
+            <graphics>
+                <position x="1737.0" y="413.0"/>
+            </graphics>
+            <name>
+                <value>P_PED_TL</value>
+                <graphics>
+                    <offset x="40.0" y="-12.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_PED_X_20">
+            <graphics>
+                <position x="1621.0" y="537.0"/>
+            </graphics>
+            <name>
+                <value>P_PED_X_20</value>
+                <graphics>
+                    <offset x="45.0" y="70.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="P_PTL">
+            <graphics>
+                <position x="1754.0" y="699.0"/>
+            </graphics>
+            <name>
+                <value>P_PTL</value>
+                <graphics>
+                    <offset x="29.0" y="43.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
         <place id="P_X_20">
             <graphics>
                 <position x="1264.0" y="253.0"/>
@@ -353,6 +457,26 @@
             </name>
             <initialMarking>
                 <value>Default,1</value>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+            </initialMarking>
+            <capacity>
+                <value>0</value>
+            </capacity>
+        </place>
+        <place id="USERREQ_20_0">
+            <graphics>
+                <position x="1606.0" y="693.0"/>
+            </graphics>
+            <name>
+                <value>USERREQ_20_0</value>
+                <graphics>
+                    <offset x="53.0" y="48.0"/>
+                </graphics>
+            </name>
+            <initialMarking>
+                <value>Default,0</value>
                 <graphics>
                     <offset x="0.0" y="0.0"/>
                 </graphics>
@@ -528,7 +652,7 @@
                 </graphics>
             </name>
             <orientation>
-                <value>45</value>
+                <value>180</value>
             </orientation>
             <rate>
                 <value>1.0</value>
@@ -725,6 +849,32 @@
                 <value>1</value>
             </priority>
         </transition>
+        <transition id="T_PED_0_20">
+            <graphics>
+                <position x="1738.0" y="540.0"/>
+            </graphics>
+            <name>
+                <value>T_PED_0_20</value>
+                <graphics>
+                    <offset x="41.0" y="53.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
         <transition id="T_U_20">
             <graphics>
                 <position x="1377.0" y="256.0"/>
@@ -785,6 +935,32 @@
                 <value>T_U_22</value>
                 <graphics>
                     <offset x="23.0" y="48.0"/>
+                </graphics>
+            </name>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1.0</value>
+            </rate>
+            <timed>
+                <value>false</value>
+            </timed>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <priority>
+                <value>1</value>
+            </priority>
+        </transition>
+        <transition id="T_U1_PED">
+            <graphics>
+                <position x="1482.0" y="537.0"/>
+            </graphics>
+            <name>
+                <value>T_U1_PED</value>
+                <graphics>
+                    <offset x="43.0" y="68.0"/>
                 </graphics>
             </name>
             <orientation>
@@ -930,7 +1106,7 @@
                 <value>false</value>
             </tagged>
             <arcpath id="000" x="686" y="451" curvePoint="false"/>
-            <arcpath id="001" x="971" y="530" curvePoint="false"/>
+            <arcpath id="001" x="967" y="531" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P_INT_3 to T_O_21" source="P_INT_3" target="T_O_21">
@@ -981,8 +1157,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="1069" y="542" curvePoint="false"/>
-            <arcpath id="001" x="976" y="540" curvePoint="false"/>
+            <arcpath id="000" x="1069" y="541" curvePoint="false"/>
+            <arcpath id="001" x="977" y="535" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P_O_20 to T_OE_20" source="P_O_20" target="T_OE_20">
@@ -1074,6 +1250,71 @@
             </tagged>
             <arcpath id="000" x="676" y="759" curvePoint="false"/>
             <arcpath id="001" x="674" y="804" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_OE_20 to T_U1_PED" source="P_OE_20" target="T_U1_PED">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1396" y="554" curvePoint="false"/>
+            <arcpath id="001" x="1488" y="549" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_PED_TL to T_PED_0_20" source="P_PED_TL" target="T_PED_0_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1749" y="439" curvePoint="false"/>
+            <arcpath id="001" x="1750" y="537" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_PED_X_20 to T_PED_0_20" source="P_PED_X_20" target="T_PED_0_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1647" y="548" curvePoint="false"/>
+            <arcpath id="001" x="1745" y="546" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_PED_X_20 to T_U1_PED" source="P_PED_X_20" target="T_U1_PED">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1618" y="549" curvePoint="false"/>
+            <arcpath id="001" x="1498" y="554" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="P_PTL to T_PED_0_20" source="P_PTL" target="T_PED_0_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1764" y="696" curvePoint="false"/>
+            <arcpath id="001" x="1750" y="567" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="P_X_20 to T_E_20" source="P_X_20" target="T_E_20">
@@ -1282,7 +1523,7 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="964" y="537" curvePoint="false"/>
+            <arcpath id="000" x="966" y="541" curvePoint="false"/>
             <arcpath id="001" x="686" y="451" curvePoint="false"/>
             <type value="normal"/>
         </arc>
@@ -1295,8 +1536,8 @@
             <tagged>
                 <value>false</value>
             </tagged>
-            <arcpath id="000" x="970" y="544" curvePoint="false"/>
-            <arcpath id="001" x="1069" y="543" curvePoint="false"/>
+            <arcpath id="000" x="976" y="542" curvePoint="false"/>
+            <arcpath id="001" x="1069" y="542" curvePoint="false"/>
             <type value="normal"/>
         </arc>
         <arc id="T_O_21 to P_INT_3" source="T_O_21" target="P_INT_3">
@@ -1481,6 +1722,71 @@
             <arcpath id="001" x="683" y="858" curvePoint="false"/>
             <type value="normal"/>
         </arc>
+        <arc id="T_PED_0_20 to OP_REQ_20_1" source="T_PED_0_20" target="OP_REQ_20_1">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1754" y="557" curvePoint="false"/>
+            <arcpath id="001" x="1885" y="698" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_PED_0_20 to P_OE2_20" source="T_PED_0_20" target="P_OE2_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1755" y="547" curvePoint="false"/>
+            <arcpath id="001" x="1879" y="551" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_PED_0_20 to P_PED_TL" source="T_PED_0_20" target="P_PED_TL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1750" y="537" curvePoint="false"/>
+            <arcpath id="001" x="1749" y="439" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_PED_0_20 to P_PED_X_20" source="T_PED_0_20" target="P_PED_X_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1744" y="553" curvePoint="false"/>
+            <arcpath id="001" x="1647" y="549" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_PED_0_20 to P_PTL" source="T_PED_0_20" target="P_PTL">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1750" y="567" curvePoint="false"/>
+            <arcpath id="001" x="1764" y="696" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
         <arc id="T_U_20 to P_X_20" source="T_U_20" target="P_X_20">
             <graphics/>
             <inscription>
@@ -1518,6 +1824,32 @@
             </tagged>
             <arcpath id="000" x="108" y="576" curvePoint="false"/>
             <arcpath id="001" x="163" y="580" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="T_U1_PED to P_PED_X_20" source="T_U1_PED" target="P_PED_X_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1499" y="544" curvePoint="false"/>
+            <arcpath id="001" x="1618" y="548" curvePoint="false"/>
+            <type value="normal"/>
+        </arc>
+        <arc id="USERREQ_20_0 to T_PED_0_20" source="USERREQ_20_0" target="T_PED_0_20">
+            <graphics/>
+            <inscription>
+                <value>Default,1</value>
+                <graphics/>
+            </inscription>
+            <tagged>
+                <value>false</value>
+            </tagged>
+            <arcpath id="000" x="1627" y="693" curvePoint="false"/>
+            <arcpath id="001" x="1744" y="560" curvePoint="false"/>
             <type value="normal"/>
         </arc>
     </net>

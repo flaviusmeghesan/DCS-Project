@@ -3,15 +3,26 @@ package DCS_UVS;
 import Components.*;
 import DataObjects.DataCar;
 import DataObjects.DataCarQueue;
+import DataObjects.DataString;
+import DataObjects.DataTransfer;
+import DataOnly.TransferOperation;
 import Enumerations.LogicConnector;
 import Enumerations.TransitionCondition;
 import Enumerations.TransitionOperation;
+
+import javax.xml.crypto.Data;
 
 public class Intersection3 {
     public static void main(String[] args) {
         PetriNet pn = new PetriNet();
         pn.PetriNetName = "Main Petri";
         pn.NetworkPort = 1080;
+
+        DataString green = new DataString();
+        //green.Printable = false;
+        green.SetName("green");
+        green.SetValue("green");
+        pn.ConstantPlaceList.add(green);
 
         DataCar P_A_20 = new DataCar();
         P_A_20.SetName("P_A_20");
@@ -24,11 +35,39 @@ public class Intersection3 {
         DataCar P_A_22 = new DataCar();
         P_A_22.SetName("P_A_22");
         pn.PlaceList.add(P_A_22);
-        
 
-        DataCar P_OE_20 = new DataCar();
+        DataTransfer P_OE_20 = new DataTransfer();
         P_OE_20.SetName("P_OE_20");
-        pn.PlaceList.add(P_OE_20);
+        P_OE_20.Value = new TransferOperation("localhost", "1082", "P_A_12");
+
+//        DataCar P_OE_20 = new DataCar();
+//        P_OE_20.SetName("P_OE_20");
+//        pn.PlaceList.add(P_OE_20);
+
+        // PEDESTRIANS
+        DataCarQueue P_PED_X_20 = new DataCarQueue();
+        P_PED_X_20.Value.Size = 3;
+        P_PED_X_20.SetName("P_PED_X_20");
+        pn.PlaceList.add(P_PED_X_20);
+
+        DataString P_PED_TL = new DataString();
+        P_PED_TL.SetName("P_PED_TL");
+        P_PED_TL.SetValue("green");
+        pn.PlaceList.add(P_PED_TL);
+
+        DataString USERREQ_20_0 = new DataString();
+        USERREQ_20_0.SetName("USERREQ_20_0");
+        pn.PlaceList.add(USERREQ_20_0);
+
+        DataString P_PTL = new DataString();
+        P_PTL.SetName("P_PTL");
+        P_PTL.SetValue("red");
+        pn.PlaceList.add(P_PTL);
+
+        DataTransfer OP_REQ_20_1 = new DataTransfer();
+        OP_REQ_20_1.SetName("OP_REQ_20_1");
+        OP_REQ_20_1.Value = new TransferOperation("localhost", "1086", "USERREQ_20_0");
+        pn.PlaceList.add(OP_REQ_20_1);
 
         DataCar P_OE_21 = new DataCar();
         P_OE_21.SetName("P_OE_21");
@@ -277,7 +316,7 @@ public class Intersection3 {
 
         GuardMapping grdT_O_20 = new GuardMapping();
         grdT_O_20.condition = T_O_20_CT1;
-        grdT_O_20.Activations.add(new Activation(T_O_20, "P_INT_3", TransitionOperation.PopElementWithTargetToQueue, "P_O_20"));
+        grdT_O_20.Activations.add(new Activation(T_O_20, "P_INT_3", TransitionOperation.PopElementWithoutTarget, "P_O_20"));
         T_O_20.GuardMappingList.add(grdT_O_20);
 
         T_O_20.Delay = 1;
@@ -292,7 +331,7 @@ public class Intersection3 {
         GuardMapping grdT_OE_20 = new GuardMapping();
 
         grdT_OE_20.condition = T_OE_20_CT1;
-        grdT_OE_20.Activations.add(new Activation(T_OE_20, "P_O_20", TransitionOperation.PopElementWithoutTarget, "P_OE_20"));
+        grdT_OE_20.Activations.add(new Activation(T_OE_20, "P_O_20", TransitionOperation.PopElementWithoutTargetToQueue, "P_OE_20"));
         T_OE_20.GuardMappingList.add(grdT_OE_20);
 
         T_OE_20.Delay = 2;
@@ -395,6 +434,64 @@ public class Intersection3 {
 
         T_OE_23.Delay = 2;
         pn.Transitions.add(T_OE_23);
+
+        // PEDESTRIANS
+        PetriTransition T_U1_PED = new PetriTransition(pn);
+        T_U1_PED.TransitionName = "T_U1_PED";
+        T_U1_PED.InputPlaceName.add("P_OE_20");
+        T_U1_PED.InputPlaceName.add("P_PED_X_20");
+
+        Condition T_U1_PED_CT1 = new Condition(T_U1_PED, "P_OE_20", TransitionCondition.NotNull);
+        Condition T_U1_PED_CT2 = new Condition(T_U1_PED, "P_PED_X_20", TransitionCondition.CanAddCars);
+        T_U1_PED_CT1.SetNextCondition(LogicConnector.AND, T_U1_PED_CT2);
+
+        GuardMapping grdT_U1_PED = new GuardMapping();
+        grdT_U1_PED.condition = T_U1_PED_CT1;
+        grdT_U1_PED.Activations.add(new Activation(T_U1_PED, "P_OE_20", TransitionOperation.AddElement, "P_PED_X_20"));
+        T_U1_PED.GuardMappingList.add(grdT_U1_PED);
+
+        T_U1_PED.Delay = 2;
+        pn.Transitions.add(T_U1_PED);
+
+        PetriTransition T_PED_0_20 = new PetriTransition(pn);
+        T_PED_0_20.TransitionName = "T_PED_0_20";
+        T_PED_0_20.InputPlaceName.add("P_PED_X_20");
+        T_PED_0_20.InputPlaceName.add("P_PED_TL");
+        T_PED_0_20.InputPlaceName.add("USERREQ_20_0");
+        T_PED_0_20.InputPlaceName.add("P_PTL");
+
+        Condition T_PED_0_20_CT1 = new Condition(T_PED_0_20, "P_PED_TL", TransitionCondition.Equal, "green");
+        Condition T_PED_0_20_CT2 = new Condition(T_PED_0_20, "P_PED_X_20", TransitionCondition.HaveCar);
+        T_PED_0_20_CT1.SetNextCondition(LogicConnector.AND, T_PED_0_20_CT2);
+
+        GuardMapping grdT_PED_0_20 = new GuardMapping();
+        grdT_PED_0_20.condition = T_PED_0_20_CT1;
+//        grdT_PED_0_20.Activations.add(new Activation(T_PED_0_20, "P_PED_X_20", TransitionOperation.PopElementWithoutTarget, "P_OE_20"));
+        grdT_PED_0_20.Activations.add(new Activation(T_PED_0_20, "P_PED_X_20", TransitionOperation.SendOverNetwork, "P_OE_20"));
+        grdT_PED_0_20.Activations.add(new Activation(T_PED_0_20, "P_PED_TL", TransitionOperation.Move, "P_PED_TL"));
+        grdT_PED_0_20.Activations.add(new Activation(T_PED_0_20, "P_PTL", TransitionOperation.Move, "P_PTL"));
+        T_PED_0_20.GuardMappingList.add(grdT_PED_0_20);
+
+        Condition T_PED_0_20GrdCT1 = new Condition(T_PED_0_20, "USERREQ_20_0", TransitionCondition.NotNull);
+        GuardMapping grdT_PED_0_20Grd = new GuardMapping();
+        grdT_PED_0_20Grd.condition = T_PED_0_20GrdCT1;
+        grdT_PED_0_20Grd.Activations.add(new Activation(T_PED_0_20, "P_PED_TL", TransitionOperation.Move, "P_PED_TL"));
+        grdT_PED_0_20Grd.Activations.add(new Activation(T_PED_0_20, "P_PTL", TransitionOperation.Move, "P_PTL"));
+        grdT_PED_0_20Grd.Activations.add(new Activation(T_PED_0_20,"USERREQ_20_0", TransitionOperation.SendOverNetwork, "OP_REQ_20_1"));
+        T_PED_0_20.GuardMappingList.add(grdT_PED_0_20Grd);
+
+        Condition T_PED_0_20Grd1CT1 = new Condition(T_PED_0_20, "P_PED_X_20", TransitionCondition.HavePriorityCar);
+        GuardMapping grdT_PED_0_20Grd1 = new GuardMapping();
+        grdT_PED_0_20Grd1.condition = T_PED_0_20Grd1CT1;
+        //grdT_PED_0_20Grd1.Activations.add(new Activation(T_PED_0_20, "P_PED_X_20", TransitionOperation.PopElementWithoutTarget, "P_OE_20"));
+        grdT_PED_0_20Grd1.Activations.add(new Activation(T_PED_0_20, "P_PED_X_20", TransitionOperation.SendOverNetwork, "P_OE_20"));
+        grdT_PED_0_20Grd1.Activations.add(new Activation(T_PED_0_20, "P_PED_TL", TransitionOperation.Move, "P_PED_TL"));
+        grdT_PED_0_20Grd1.Activations.add(new Activation(T_PED_0_20, "P_PTL", TransitionOperation.Move, "P_PTL"));
+        T_PED_0_20.GuardMappingList.add(grdT_PED_0_20Grd1);
+
+        T_PED_0_20.Delay = 1;
+        pn.Transitions.add(T_PED_0_20);
+
 
         // -------------------------------------------------------------------------------------
         // ----------------------------PNStart-------------------------------------------------
