@@ -410,7 +410,7 @@ public class Intersection1 {
         Condition T_OE_2_CT1 = new Condition(T_OE_2, "P_O_2", TransitionCondition.HaveCar);
 
         GuardMapping grd_T_OE_2 = new GuardMapping();
-        grd_T_OE_2.condition= T_OE_2_CT1;
+        grd_T_OE_2.condition = T_OE_2_CT1;
         grd_T_OE_2.Activations.add(new Activation(T_OE_2, "P_O_2", TransitionOperation.PopElementWithoutTarget,"P_OE_2"));
 
         T_OE_2.GuardMappingList.add(grd_T_OE_2);
@@ -419,6 +419,191 @@ public class Intersection1 {
 
 
         // LANE 3 INPUT
+        PetriTransition T_U1_3 = new PetriTransition(pn);
+        T_U1_3.TransitionName = "T_U1_3";
+        T_U1_3.InputPlaceName.add("P_A1_3");
+        T_U1_3.InputPlaceName.add("P_X1_3");
+
+        Condition T_U1_3_CT1 = new Condition(T_U1_3, "P_A1_3", TransitionCondition.NotNull);
+        Condition T_U1_3_CT2 = new Condition(T_U1_3, "P_X1_3", TransitionCondition.CanAddCars);
+        T_U1_3_CT1.SetNextCondition(LogicConnector.AND,T_U1_3_CT2);
+
+        GuardMapping grd_T_U1_3 = new GuardMapping();
+        grd_T_U1_3.condition = T_U1_3_CT1;
+        grd_T_U1_3.Activations.add(new Activation(T_U1_3, "P_A1_3", TransitionOperation.AddElement,"P_X1_3"));
+
+        Condition T_U1_31_CT1 = new Condition(T_U1_3, "P_A1_3", TransitionCondition.NotNull);
+        Condition T_U1_31_CT2 = new Condition(T_U1_3, "P_X1_3", TransitionCondition.CanAddCars);
+        Condition T_U1_31_CT3 = new Condition(T_U1_3, "P_X1_3", TransitionCondition.isPriorityCar);
+        T_U1_31_CT2.SetNextCondition(LogicConnector.AND,T_U1_31_CT3);
+        T_U1_31_CT1.SetNextCondition(LogicConnector.AND,T_U1_31_CT2);
+
+        GuardMapping grd_T_U1_31 = new GuardMapping();
+        grd_T_U1_31.condition = T_U1_31_CT1;
+        grd_T_U1_31.Activations.add(new Activation(T_U1_3, "P_A1_3", TransitionOperation.AddElement,"P_X1_3"));
+
+        T_U1_3.GuardMappingList.add(grd_T_U1_3);
+        T_U1_3.GuardMappingList.add(grd_T_U1_31);
+
+        T_U1_3.Delay = 2;
+        pn.Transitions.add(T_U1_3);
+
+
+        PetriTransition T_S_3 = new PetriTransition(pn);
+        T_S_3.TransitionName = "T_S_3";
+        T_S_3.InputPlaceName.add("P_X1_3");
+
+        Condition T_S_3_CT1 = new Condition(T_S_3, "P_X1_3", TransitionCondition.isBus);
+        Condition T_S_3_CT2 = new Condition(T_S_3, "P_STATION_3", TransitionCondition.HaveCarForMe);
+        T_S_3_CT1.SetNextCondition(LogicConnector.AND,T_S_3_CT2);
+
+        GuardMapping grd_T_S_3 = new GuardMapping();
+        grd_T_S_3.condition = T_S_3_CT1;
+        grd_T_S_3.Activations.add(new Activation(T_S_3, "P_X1_3", TransitionOperation.PopElementWithTargetToQueue,"P_STATION_3"));
+
+        T_S_3.GuardMappingList.add(grd_T_S_3);
+        T_S_3.Delay = 2;
+        pn.Transitions.add(T_S_3);
+
+        PetriTransition T_ES_3 = new PetriTransition(pn);
+        T_ES_3.TransitionName = "T_ES_3";
+        T_ES_3.InputPlaceName.add("P_STATION_3");
+        T_ES_3.InputPlaceName.add("P_X2_3");
+
+        Condition T_ES_3_CT1 = new Condition(T_ES_3, "P_STATION_3", TransitionCondition.HaveCar);
+        Condition T_ES_3_CT2 = new Condition(T_ES_3, "P_X2_3", TransitionCondition.CanAddCars);
+        T_ES_3_CT1.SetNextCondition(LogicConnector.AND,T_ES_3_CT2);
+
+        GuardMapping grd_T_ES_3 = new GuardMapping();
+        grd_T_ES_3.condition= T_ES_3_CT1;
+        grd_T_ES_3.Activations.add(new Activation(T_ES_3, "P_STATION_3", TransitionOperation.PopElementWithTargetToQueue,"P_X2_3"));
+
+        T_ES_3.GuardMappingList.add(grd_T_ES_3);
+        T_ES_3.Delay = 2;
+
+        pn.Transitions.add(T_ES_3);
+
+
+        PetriTransition T_C_3 = new PetriTransition(pn);
+        T_C_3.TransitionName = "T_C_3";
+        T_C_3.InputPlaceName.add("P_X1_3");
+        T_C_3.InputPlaceName.add("P_X2_3");
+
+        Condition T_C_3_CT1 = new Condition(T_C_3, "P_X1_3", TransitionCondition.HaveCarForMe);
+        Condition T_C_3_CT2 = new Condition(T_C_3, "P_X2_3", TransitionCondition.CanAddCars);
+        T_C_3_CT1.SetNextCondition(LogicConnector.AND,T_C_3_CT2);
+
+        GuardMapping grd_T_C_3 = new GuardMapping();
+        grd_T_C_3.condition = T_C_3_CT1;
+        grd_T_C_3.Activations.add(new Activation(T_C_3, "P_X1_3", TransitionOperation.PopElementWithTargetToQueue,"P_X2_3"));
+
+        T_C_3.GuardMappingList.add(grd_T_C_3);
+
+        T_C_3.Delay = 2;
+        pn.Transitions.add(T_C_3);
+
+
+        PetriTransition T_U2_3 = new PetriTransition(pn);
+        T_U2_3.TransitionName = "T_U2_3";
+        T_U2_3.InputPlaceName.add("P_X2_3");
+
+        Condition T_U2_3_CT1 = new Condition(T_U2_3, "P_X2_3", TransitionCondition.HaveCar);
+
+        GuardMapping grd_T_U2_3 = new GuardMapping();
+        grd_T_U2_3.condition = T_U2_3_CT1;
+        grd_T_U2_3.Activations.add(new Activation(T_U2_3, "P_X2_4", TransitionOperation.PopElementWithoutTarget,"P_A_3"));
+
+        T_U2_3.GuardMappingList.add(grd_T_U2_3);
+        T_U2_3.Delay = 2;
+
+        pn.Transitions.add(T_U2_3);
+
+        PetriTransition T_U_3 = new PetriTransition(pn);
+        T_U_3.TransitionName = "T_U_3";
+        T_U_3.InputPlaceName.add("P_A_3");
+        T_U_3.InputPlaceName.add("P_X_3");
+
+        Condition T_U_3_CT1 = new Condition(T_U_3, "P_A_3", TransitionCondition.NotNull);
+        Condition T_U_3_CT2 = new Condition(T_U_3, "P_X_3", TransitionCondition.CanAddCars);
+        T_U_3_CT1.SetNextCondition(LogicConnector.AND,T_U_3_CT2);
+
+        GuardMapping grd_T_U_3 = new GuardMapping();
+        grd_T_U_3.condition = T_U_3_CT1;
+        grd_T_U_3.Activations.add(new Activation(T_U_3, "P_A_3", TransitionOperation.AddElement,"P_X_3"));
+
+        T_U_3.GuardMappingList.add(grd_T_U_3);
+
+        T_U_3.Delay = 2;
+        pn.Transitions.add(T_U_3);
+
+
+        PetriTransition T_E_3 = new PetriTransition(pn);
+        T_E_3.TransitionName = "T_E_3";
+        T_E_3.InputPlaceName.add("P_X_3");
+        T_E_3.InputPlaceName.add("P_TL_3");
+
+        Condition T_E_3_CT1 = new Condition(T_E_3, "P_TL_3", TransitionCondition.Equal, "green");
+        Condition T_E_3_CT2 = new Condition(T_E_3, "P_X_3", TransitionCondition.HaveCar);
+        T_E_3_CT1.SetNextCondition(LogicConnector.AND,T_E_3_CT2);
+
+        GuardMapping grd_T_E_3 = new GuardMapping();
+        grd_T_E_3.condition = T_E_3_CT1;
+        grd_T_E_3.Activations.add(new Activation(T_E_3, "P_X_3", TransitionOperation.PopElementWithoutTarget, "P_B_3"));
+        grd_T_E_3.Activations.add(new Activation(T_E_3, "P_TL_3", TransitionOperation.Move, "P_TL_3"));
+
+        T_E_3.GuardMappingList.add(grd_T_E_3);
+
+        Condition T_E_31_CT1 = new Condition(T_E_3, "P_X_3", TransitionCondition.HavePriorityCar);
+        GuardMapping grd_T_E_31 = new GuardMapping();
+        grd_T_E_31.condition = T_E_31_CT1;
+
+        grd_T_E_31.Activations.add(new Activation(T_E_3, "P_X_3", TransitionOperation.PopElementWithoutTarget, "P_B_3"));
+        grd_T_E_31.Activations.add(new Activation(T_E_3, "P_TL_3", TransitionOperation.Move, "P_TL_3"));
+
+        T_E_3.GuardMappingList.add(grd_T_E_31);
+
+        T_E_3.Delay = 2;
+        pn.Transitions.add(T_E_3);
+
+
+        PetriTransition T_OUT_3 = new PetriTransition(pn);
+        T_OUT_3.TransitionName = "T_OUT_3";
+        T_OUT_3.InputPlaceName.add("P_A_3");
+        T_OUT_3.InputPlaceName.add("P_X_3");
+        T_OUT_3.IsAsync = true;
+
+        Condition T_OUT_3_CT1 = new Condition(T_OUT_3, "P_A_3", TransitionCondition.NotNull);
+        Condition T_OUT_3_CT2 = new Condition(T_OUT_3, "P_X_3", TransitionCondition.CanNotAddCars);
+        T_OUT_3_CT1.SetNextCondition(LogicConnector.AND,T_OUT_3_CT2);
+
+        GuardMapping grd_T_OUT_3 = new GuardMapping();
+        grd_T_OUT_3.condition = T_OUT_3_CT1;
+        grd_T_OUT_3.Activations.add(new Activation(T_OUT_3, "full", TransitionOperation.SendOverNetwork,"OP_3"));
+        T_OUT_3.GuardMappingList.add(grd_T_OUT_3);
+
+        T_OUT_3.Delay = 2;
+        pn.Transitions.add(T_OUT_3);
+
+        PetriTransition T_I_3 = new PetriTransition(pn);
+        T_I_3.TransitionName = "T_I_3";
+        T_I_3.InputPlaceName.add("P_B_3");
+        T_I_3.InputPlaceName.add("P_INT_1");
+
+        Condition T_I_3_CT1 = new Condition(T_I_3, "P_B_3", TransitionCondition.NotNull);
+        Condition T_I_3_CT2 = new Condition(T_I_3, "P_INT_1", TransitionCondition.CanAddCars);
+        T_I_3_CT1.SetNextCondition(LogicConnector.AND,T_I_3_CT2);
+
+        GuardMapping grd_T_I_3 = new GuardMapping();
+        grd_T_I_3.condition = T_I_3_CT1;
+        grd_T_I_3.Activations.add(new Activation(T_I_3, "P_B_3", TransitionOperation.AddElement,"P_INT_1"));
+        T_I_3.GuardMappingList.add(grd_T_I_3);
+
+        T_I_3.Delay = 2;
+        pn.Transitions.add(T_I_3);
+
+
+
+
 
         // LANE 5 EXIT
         PetriTransition T_O_5 = new PetriTransition(pn);
@@ -486,6 +671,7 @@ public class Intersection1 {
 
         pn.Transitions.add(T_OE_4);
 
+
         PetriTransition T_U_4 = new PetriTransition(pn);
         T_U_4.TransitionName = "T_U_4";
         T_U_4.InputPlaceName.add("P_OE_4");
@@ -499,11 +685,12 @@ public class Intersection1 {
 
         pn.Transitions.add(T_U_4);
 
+
         PetriTransition T_S_4 = new PetriTransition(pn);
         T_S_4.TransitionName = "T_S_4";
         T_S_4.InputPlaceName.add("P_X1_4");
 
-        Condition T_S_4_CT1 = new Condition(T_S_4, "P_X1_4", TransitionCondition.HaveBus);
+        Condition T_S_4_CT1 = new Condition(T_S_4, "P_X1_4", TransitionCondition.isBus);
         Condition T_S_4_CT2 = new Condition(T_S_4, "P_STATION_4", TransitionCondition.HaveCarForMe);
         T_S_4_CT1.SetNextCondition(LogicConnector.AND,T_S_4_CT2);
 
@@ -514,6 +701,7 @@ public class Intersection1 {
         T_S_4.GuardMappingList.add(grd_T_S_4);
         T_S_4.Delay = 2;
         pn.Transitions.add(T_S_4);
+
 
         PetriTransition T_ES_4 = new PetriTransition(pn);
         T_ES_4.TransitionName = "T_ES_4";
@@ -539,6 +727,20 @@ public class Intersection1 {
         T_C_4.InputPlaceName.add("P_X1_4");
         T_C_4.InputPlaceName.add("P_X2_4");
 
+        Condition T_C_4_CT1 = new Condition(T_C_4, "P_X1_4", TransitionCondition.HaveCarForMe);
+        Condition T_C_4_CT2 = new Condition(T_C_4, "P_X2_4", TransitionCondition.CanAddCars);
+        T_C_4_CT1.SetNextCondition(LogicConnector.AND,T_C_4_CT2);
+
+        GuardMapping grd_T_C_4 = new GuardMapping();
+        grd_T_C_4.condition = T_C_4_CT1;
+        grd_T_C_4.Activations.add(new Activation(T_C_4, "P_X1_4", TransitionOperation.PopElementWithTargetToQueue,"P_X2_4"));
+
+        T_C_4.GuardMappingList.add(grd_T_C_4);
+
+        T_C_4.Delay = 2;
+        pn.Transitions.add(T_C_4);
+
+
         PetriTransition T_OE1_4 = new PetriTransition(pn);
         T_OE1_4.TransitionName = "T_OE1_4";
         T_OE1_4.InputPlaceName.add("P_X2_4");
@@ -554,6 +756,16 @@ public class Intersection1 {
 
         pn.Transitions.add(T_OE1_4);
 
+        //-------------------------------------------------------------------------------------
+        //----------------------------PN Start-------------------------------------------------
+        //-------------------------------------------------------------------------------------
 
+        System.out.println("Intersection 1 started \n ------------------------------");
+        pn.Delay = 2000;
+        //pn.Start();
+
+        PetriNetWindow frame = new PetriNetWindow(false);
+        frame.petriNet = pn;
+        frame.setVisible(true);
     }
 }
