@@ -25,12 +25,12 @@ public class Intersection1 {
 
         DataTransfer OP_2 = new DataTransfer();
         OP_2.SetName("OP_2");
-        OP_2.Value = new TransferOperation("localhost","1082","in2");
+        OP_2.Value = new TransferOperation("localhost","1081","in2");
         pn.PlaceList.add(OP_2);
 
         DataTransfer OP_3 = new DataTransfer();
         OP_3.SetName("OP_3");
-        OP_3.Value = new TransferOperation("localhost","1083","in3");
+        OP_3.Value = new TransferOperation("localhost","1081","in3");
         pn.PlaceList.add(OP_3);
 
         DataCar P_A_1 = new DataCar();

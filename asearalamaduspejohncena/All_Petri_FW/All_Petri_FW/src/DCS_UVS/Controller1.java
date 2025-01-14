@@ -80,18 +80,18 @@ public class Controller1 {
         pn.PlaceList.add(p7);
 
         DataTransfer p8 = new DataTransfer();
-        p8.SetName("OP1");
-        p8.Value = new TransferOperation("localhost", "1080", "P_TL1");
+        p8.SetName("OP_1");
+        p8.Value = new TransferOperation("localhost", "1080", "P_TL_1");
         pn.PlaceList.add(p8);
 
         DataTransfer p9 = new DataTransfer();
-        p9.SetName("OP2");
-        p9.Value = new TransferOperation("localhost", "1080", "P_TL2i");
+        p9.SetName("OP_2");
+        p9.Value = new TransferOperation("localhost", "1080", "P_TL_2");
         pn.PlaceList.add(p9);
 
         DataTransfer p10 = new DataTransfer();
-        p10.SetName("OP3");
-        p10.Value = new TransferOperation("localhost", "1080", "P_TL3i");
+        p10.SetName("OP_3");
+        p10.Value = new TransferOperation("localhost", "1080", "P_TL_3");
         pn.PlaceList.add(p10);
 
         DataString in1 = new DataString();
@@ -128,9 +128,9 @@ public class Controller1 {
         GuardMapping grdiniT = new GuardMapping();
         grdiniT.condition = iniTCT1;
 
-        grdiniT.Activations.add(new Activation(iniT, "P_ini", TransitionOperation.SendOverNetwork, "OP1"));
-        grdiniT.Activations.add(new Activation(iniT, "P_ini", TransitionOperation.SendOverNetwork, "OP2"));
-        grdiniT.Activations.add(new Activation(iniT, "P_ini", TransitionOperation.SendOverNetwork, "OP3"));
+        grdiniT.Activations.add(new Activation(iniT, "P_ini", TransitionOperation.SendOverNetwork, "OP_1"));
+        grdiniT.Activations.add(new Activation(iniT, "P_ini", TransitionOperation.SendOverNetwork, "OP_2"));
+        grdiniT.Activations.add(new Activation(iniT, "P_ini", TransitionOperation.SendOverNetwork, "OP_3"));
         grdiniT.Activations.add(new Activation(iniT,"", TransitionOperation.MakeNull, "P_ini"));
 
         iniT.GuardMappingList.add(grdiniT);
@@ -149,7 +149,7 @@ public class Controller1 {
         grdT1.condition= T1CT1;
 
         grdT1.Activations.add(new Activation(t1, "r1r2r3", TransitionOperation.Move, "g1r2r3"));
-        grdT1.Activations.add(new Activation(t1,"green", TransitionOperation.SendOverNetwork, "OP1"));
+        grdT1.Activations.add(new Activation(t1,"green", TransitionOperation.SendOverNetwork, "OP_1"));
         grdT1.Activations.add(new Activation(t1,"r1r2r3", TransitionOperation.Move, "p_f1"));
         t1.GuardMappingList.add(grdT1);
 
@@ -167,7 +167,7 @@ public class Controller1 {
         grdT2.condition = T2CT1;
 
         grdT2.Activations.add(new Activation(t2, "g1r2r3", TransitionOperation.Move, "y1r2r3"));
-        grdT2.Activations.add(new Activation(t2,"yellow", TransitionOperation.SendOverNetwork, "OP1"));
+        grdT2.Activations.add(new Activation(t2,"yellow", TransitionOperation.SendOverNetwork, "OP_1"));
 
         t2.GuardMappingList.add(grdT2);
 
@@ -185,8 +185,8 @@ public class Controller1 {
         grdT3.condition = T3CT1;
 
         grdT3.Activations.add(new Activation(t3, "y1r2r3", TransitionOperation.Move, "r1g2r3"));
-        grdT3.Activations.add(new Activation(t3,"red", TransitionOperation.SendOverNetwork, "OP1"));
-        grdT3.Activations.add(new Activation(t3, "green", TransitionOperation.SendOverNetwork, "OP2"));
+        grdT3.Activations.add(new Activation(t3,"red", TransitionOperation.SendOverNetwork, "OP_1"));
+        grdT3.Activations.add(new Activation(t3, "green", TransitionOperation.SendOverNetwork, "OP_2"));
         grdT3.Activations.add(new Activation(t3, "y1r2r3", TransitionOperation.SendOverNetwork, "p_f2"));
         t3.GuardMappingList.add(grdT3);
 
@@ -204,7 +204,7 @@ public class Controller1 {
         grdT4.condition = T4CT1;
 
         grdT4.Activations.add(new Activation(t4, "r1g2r3", TransitionOperation.Move, "r1y2r3"));
-        grdT4.Activations.add(new Activation(t4,"yellow", TransitionOperation.SendOverNetwork, "OP2"));
+        grdT4.Activations.add(new Activation(t4,"yellow", TransitionOperation.SendOverNetwork, "OP_2"));
 
         t4.GuardMappingList.add(grdT4);
 
@@ -222,8 +222,8 @@ public class Controller1 {
         grdT5.condition = T5CT1;
 
         grdT5.Activations.add(new Activation(t5, "r1y2r3", TransitionOperation.Move, "r1r2g3"));
-        grdT5.Activations.add(new Activation(t5,"red", TransitionOperation.SendOverNetwork, "OP2"));
-        grdT5.Activations.add(new Activation(t5, "green", TransitionOperation.SendOverNetwork, "OP3"));
+        grdT5.Activations.add(new Activation(t5,"red", TransitionOperation.SendOverNetwork, "OP_2"));
+        grdT5.Activations.add(new Activation(t5, "green", TransitionOperation.SendOverNetwork, "OP_3"));
         grdT5.Activations.add(new Activation(t5, "r1y2r3", TransitionOperation.Move, "p_f3"));
 
         t5.GuardMappingList.add(grdT5);
@@ -242,7 +242,7 @@ public class Controller1 {
         grdT6.condition = T6CT1;
 
         grdT6.Activations.add(new Activation(t6, "r1r2g3", TransitionOperation.Move, "r1r2y3"));
-        grdT6.Activations.add(new Activation(t6,"yellow", TransitionOperation.SendOverNetwork, "OP3"));
+        grdT6.Activations.add(new Activation(t6,"yellow", TransitionOperation.SendOverNetwork, "OP_3"));
 
         t6.GuardMappingList.add(grdT6);
 
@@ -260,7 +260,7 @@ public class Controller1 {
         grdT7.condition = T7CT1;
 
         grdT7.Activations.add(new Activation(t7, "r1r2y3", TransitionOperation.Move, "r1r2r3"));
-        grdT7.Activations.add(new Activation(t7,"red", TransitionOperation.SendOverNetwork, "OP3"));
+        grdT7.Activations.add(new Activation(t7,"red", TransitionOperation.SendOverNetwork, "OP_3"));
 
         t7.GuardMappingList.add(grdT7);
 
