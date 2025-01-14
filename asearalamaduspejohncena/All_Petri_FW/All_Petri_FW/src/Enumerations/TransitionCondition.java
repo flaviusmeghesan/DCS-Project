@@ -26,5 +26,7 @@ public enum TransitionCondition implements Serializable{
 	MoreThanOrEqual_FloatFloat,  //the transition conditions for floatfloat
 	LessThan_FloatFloat,         //the transition conditions for floatfloat
 	LessThanOrEqual_FloatFloat,  //the transition conditions for floatfloat
-	FLRS
+	FLRS,
+	isBus,
+	HaveBus
 }

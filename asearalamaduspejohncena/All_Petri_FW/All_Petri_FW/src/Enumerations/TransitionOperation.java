@@ -29,6 +29,7 @@ public enum TransitionOperation implements Serializable{
 	Div_FloatFloat,  //the activations for floatfloat
 	DynamicDelay,
 	FLRS,
+	PopBusToQueue,
 	Add_Fuzzy,
 	Sub_Fuzzy,
 	Prod_Fuzzy,
