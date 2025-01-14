@@ -30,6 +30,7 @@ public enum TransitionOperation implements Serializable{
 	DynamicDelay,
 	FLRS,
 	PopBusToQueue,
+	PopTaxiToQueue,
 	Add_Fuzzy,
 	Sub_Fuzzy,
 	Prod_Fuzzy,

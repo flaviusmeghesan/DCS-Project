@@ -3,11 +3,13 @@ package DataOnly;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+
 import DataObjects.DataCar;
+import DataObjects.DataString;
 
 public class CarQueue implements Cloneable, Serializable {
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 	// Overriding clone() method of Object class
@@ -49,7 +51,7 @@ public class CarQueue implements Cloneable, Serializable {
 		}
 		return false;
 	}
-	
+
 	public boolean CanNotAddCar() {
 		if (Cars.size() >= Size) {
 			return true;
@@ -106,6 +108,38 @@ public class CarQueue implements Cloneable, Serializable {
 				Cars.set(index, null);
 				return temp;
 
+			} catch (CloneNotSupportedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		return null;
+	}
+
+	public DataCar PopTaxi(DataString req) { // added
+		String[] usrq;
+		usrq = req.Value.split(",");
+		ArrayList usrqArray = new ArrayList<String>();
+		for (int i = 0; i < usrq.length; i++) {
+			usrqArray.add(usrq[i]);
+		}
+
+		Integer index = -1;
+
+		for (int i = 0; i < Cars.size(); i++) {
+			if (Cars.get(i) != null && Cars.get(i).Value != null) {
+				index = i;
+				break;
+			}
+		}
+		if (index == -1)
+			return null;
+		Cars.get(index).Value.Targets= usrqArray;
+		if (Cars.get(index) != null) {
+			try {
+				DataCar temp = (DataCar) Cars.get(index).clone();
+				Cars.set(index, null);
+				return temp;
 			} catch (CloneNotSupportedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

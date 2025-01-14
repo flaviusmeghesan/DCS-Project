@@ -34,7 +34,7 @@ import PetriDataPackage.Transition;
 public class Functions implements Serializable {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 
@@ -49,16 +49,16 @@ public class Functions implements Serializable {
 
 	public Float FuzzyZoneToValue(FZ zone) {
 		switch (zone) {
-		case NL:
-			return -1f;
-		case NM:
-			return -0.5f;
-		case ZR:
-			return 0f;
-		case PM:
-			return 0.5f;
-		case PL:
-			return 1f;
+			case NL:
+				return -1f;
+			case NM:
+				return -0.5f;
+			case ZR:
+				return 0f;
+			case PM:
+				return 0.5f;
+			case PL:
+				return 1f;
 		}
 		return 0f;
 	}
@@ -231,45 +231,45 @@ public class Functions implements Serializable {
 		for (Place p : pd.Places) {
 			PetriObject pls;
 			switch (p.Type) {
-			case DataFloat: {
-				pls = new DataFloat();
-				break;
-			}
-			case DataString: {
-				pls = new DataString();
-				break;
-			}
-			case DataInteger: {
-				pls = new DataInteger();
-				break;
-			}
-			case DataCar: {
-				pls = new DataCar();
-				break;
-			}
-			case DataCarQueue: {
-				pls = new DataCarQueue();
-				break;
-			}
-			case DataREL: {
-				pls = new DataREL();
-				break;
-			}
-			case DataRELQueue: {
-				pls = new DataRELQueue();
-				break;
-			}
-			case DataSubPetri: {
-				pls = new DataSubPetriNet();
-				break;
-			}
-			case DataTransfer: {
-				pls = new DataTransfer();
-				break;
-			}
-			default:
-				pls = new DataFloat();
-				break;
+				case DataFloat: {
+					pls = new DataFloat();
+					break;
+				}
+				case DataString: {
+					pls = new DataString();
+					break;
+				}
+				case DataInteger: {
+					pls = new DataInteger();
+					break;
+				}
+				case DataCar: {
+					pls = new DataCar();
+					break;
+				}
+				case DataCarQueue: {
+					pls = new DataCarQueue();
+					break;
+				}
+				case DataREL: {
+					pls = new DataREL();
+					break;
+				}
+				case DataRELQueue: {
+					pls = new DataRELQueue();
+					break;
+				}
+				case DataSubPetri: {
+					pls = new DataSubPetriNet();
+					break;
+				}
+				case DataTransfer: {
+					pls = new DataTransfer();
+					break;
+				}
+				default:
+					pls = new DataFloat();
+					break;
 			}
 
 			if (p.Type == PetriObjectType.DataTransfer) {
@@ -287,45 +287,45 @@ public class Functions implements Serializable {
 		for (Place p : pd.ConstantPlaces) {
 			PetriObject pls;
 			switch (p.Type) {
-			case DataFloat: {
-				pls = new DataFloat();
-				break;
-			}
-			case DataString: {
-				pls = new DataString();
-				break;
-			}
-			case DataInteger: {
-				pls = new DataInteger();
-				break;
-			}
-			case DataCar: {
-				pls = new DataCar();
-				break;
-			}
-			case DataCarQueue: {
-				pls = new DataCarQueue();
-				break;
-			}
-			case DataREL: {
-				pls = new DataREL();
-				break;
-			}
-			case DataRELQueue: {
-				pls = new DataRELQueue();
-				break;
-			}
-			case DataSubPetri: {
-				pls = new DataSubPetriNet();
-				break;
-			}
-			case DataTransfer: {
-				pls = new DataTransfer();
-				break;
-			}
-			default:
-				pls = new DataFloat();
-				break;
+				case DataFloat: {
+					pls = new DataFloat();
+					break;
+				}
+				case DataString: {
+					pls = new DataString();
+					break;
+				}
+				case DataInteger: {
+					pls = new DataInteger();
+					break;
+				}
+				case DataCar: {
+					pls = new DataCar();
+					break;
+				}
+				case DataCarQueue: {
+					pls = new DataCarQueue();
+					break;
+				}
+				case DataREL: {
+					pls = new DataREL();
+					break;
+				}
+				case DataRELQueue: {
+					pls = new DataRELQueue();
+					break;
+				}
+				case DataSubPetri: {
+					pls = new DataSubPetriNet();
+					break;
+				}
+				case DataTransfer: {
+					pls = new DataTransfer();
+					break;
+				}
+				default:
+					pls = new DataFloat();
+					break;
 			}
 
 			if (p.Type == PetriObjectType.DataTransfer) {
@@ -489,4 +489,77 @@ public class Functions implements Serializable {
 		}
 		return false;
 	}
+
+	public boolean HavePriority(PetriTransition t, ArrayList<DataCar> list) { //added
+		if (list == null)
+			return false;
+		if (t == null)
+			return false;
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i) != null && list.get(i).Value != null)
+				if (list.get(i).Value.isPriority)
+					return true;
+		}
+		return false;
+	}
+
+	public boolean IsPriority(PetriTransition t, DataCar car) { //added
+		if (car == null)
+			return false;
+		if (t == null)
+			return false;
+		if (car != null && car.Value != null)
+			if (car.Value.isPriority)
+				return true;
+		return false;
+	}
+
+	public boolean HaveBus(PetriTransition t, ArrayList<DataCar> list) { //added
+		if (list == null)
+			return false;
+		if (t == null)
+			return false;
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i) != null && list.get(i).Value != null)
+				if (list.get(i).Value.isBus)
+					return true;
+		}
+		return false;
+	}
+
+	public boolean IsBus(PetriTransition t, DataCar car) { //added
+		if (car == null)
+			return false;
+		if (t == null)
+			return false;
+		if (car != null && car.Value != null)
+			if (car.Value.isBus)
+				return true;
+		return false;
+	}
+
+	public boolean HaveTaxi(PetriTransition t, ArrayList<DataCar> list) { //added
+		if (list == null)
+			return false;
+		if (t == null)
+			return false;
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i) != null && list.get(i).Value != null)
+				if (list.get(i).Value.isTaxi)
+					return true;
+		}
+		return false;
+	}
+
+	public boolean IsTaxi(PetriTransition t, DataCar car) { //added
+		if (car == null)
+			return false;
+		if (t == null)
+			return false;
+		if (car != null && car.Value != null)
+			if (car.Value.isTaxi)
+				return true;
+		return false;
+	}
+
 }

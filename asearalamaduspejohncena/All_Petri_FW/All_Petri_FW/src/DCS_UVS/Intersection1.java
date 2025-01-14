@@ -419,7 +419,7 @@ public class Intersection1 {
 
 
         // LANE 3 INPUT
-        @TO DO
+
         // LANE 5 EXIT
         PetriTransition T_O_5 = new PetriTransition(pn);
         T_O_5.TransitionName = "T_O_5";

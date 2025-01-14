@@ -18,7 +18,6 @@ import DataObjects.DataFloat;
 import DataObjects.DataFloatFloat;
 import DataObjects.DataFuzzy;
 import DataObjects.DataInteger;
-import DataObjects.DataNetworkCommand;
 import DataObjects.DataREL;
 import DataObjects.DataRELQueue;
 import DataObjects.DataString;
@@ -32,7 +31,7 @@ import Utilities.Functions;
 public class Activation implements Serializable {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 
@@ -52,7 +51,7 @@ public class Activation implements Serializable {
 	}
 
 	public Activation(PetriTransition Parent, String InputPlaceName, TransitionOperation Condition,
-			String OutputPlaceName) {
+					  String OutputPlaceName) {
 		util = new Functions();
 		this.Parent = Parent;
 		this.InputPlaceName = InputPlaceName;
@@ -61,7 +60,7 @@ public class Activation implements Serializable {
 	}
 
 	public Activation(PetriTransition Parent, ArrayList<String> InputPlaceNames, TransitionOperation Condition,
-			String OutputPlaceName) {
+					  String OutputPlaceName) {
 		util = new Functions();
 		this.Parent = Parent;
 		this.InputPlaceNames = InputPlaceNames;
@@ -70,7 +69,7 @@ public class Activation implements Serializable {
 	}
 
 	public Activation(PetriTransition Parent, FLRS flrs, ArrayList<PlaceNameWithWeight> InputPlaceNamesWithWeight,
-			TransitionOperation Condition, ArrayList<String> OutputPlaceNames) {
+					  TransitionOperation Condition, ArrayList<String> OutputPlaceNames) {
 		util = new Functions();
 		this.Parent = Parent;
 		this.InputPlaceNamesWithWeight = InputPlaceNamesWithWeight;
@@ -80,7 +79,7 @@ public class Activation implements Serializable {
 	}
 
 	public Activation(ArrayList<PlaceNameWithWeight> InputPlaceNamesWithWeight, TransitionOperation Condition,
-			String OutputPlaceName, PetriTransition Parent) {
+					  String OutputPlaceName, PetriTransition Parent) {
 		util = new Functions();
 		this.Parent = Parent;
 		this.InputPlaceNamesWithWeight = InputPlaceNamesWithWeight;
@@ -89,7 +88,7 @@ public class Activation implements Serializable {
 	}
 
 	public Activation(PetriTransition Parent, String InputPlaceName, TransitionOperation Condition,
-			ArrayList<String> OutputPlaceNames) {
+					  ArrayList<String> OutputPlaceNames) {
 		util = new Functions();
 		this.Parent = Parent;
 		this.InputPlaceName = InputPlaceName;
@@ -178,6 +177,9 @@ public class Activation implements Serializable {
 		// ---------------------------------------------------------
 		if (Operation == TransitionOperation.FLRS)
 			FLRS_Fuzzy();
+		// Taxi Queue ----------------------------------------------
+		if (Operation == TransitionOperation.PopTaxiToQueue)
+			PopTaxiToQueue();
 	}
 
 	private void MakeNull() throws CloneNotSupportedException {
@@ -204,7 +206,7 @@ public class Activation implements Serializable {
 		if (temp instanceof DataInteger) {
 			result = (PetriObject) ((DataInteger) temp).clone();
 		}
-		
+
 		if (temp instanceof DataBoolean) {
 			result.SetValue((PetriObject) ((DataBoolean) temp).clone());
 		}
@@ -493,8 +495,7 @@ public class Activation implements Serializable {
 	private void PopElementWithTarget() throws CloneNotSupportedException {
 		Integer outputIndex = util.GetIndexByName(OutputPlaceName, Parent.Parent.PlaceList);
 		Integer inputIndex = util.GetIndexByName(InputPlaceName, Parent.Parent.PlaceList);
-		PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputIndex)).GetValue())
-				.PopCar(Parent.TransitionName);
+		PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputIndex)).GetValue()).PopCar(Parent.TransitionName);
 
 		PetriObject result = null;
 
@@ -631,11 +632,11 @@ public class Activation implements Serializable {
 		if (temp instanceof DataString) {
 			result.SetValue((PetriObject) ((DataString) temp).clone());
 		}
-		
+
 		if (temp instanceof DataBoolean) {
 			result.SetValue((PetriObject) ((DataBoolean) temp).clone());
 		}
-		
+
 		if (temp instanceof DataFloatFloat) {
 			result.SetValue((PetriObject) ((DataFloatFloat) temp).clone());
 		}
@@ -647,13 +648,9 @@ public class Activation implements Serializable {
 		if (temp instanceof DataSubPetriNet) {
 			result.SetValue((PetriObject) ((DataSubPetriNet) temp).clone());
 		}
-		
+
 		if (temp instanceof DataFuzzy) {
 			result.SetValue((PetriObject) ((DataFuzzy) temp).clone());
-		}
-		
-		if (temp instanceof DataNetworkCommand) {
-			result.SetValue((PetriObject) ((DataNetworkCommand) temp).clone());
 		}
 
 	}
@@ -895,7 +892,7 @@ public class Activation implements Serializable {
 				} else {
 					result.Value.Value += placeName.Weight * cuurentObj.Value.Value;
 				}
-				
+
 				this.Parent.Parent.LogThis(cuurentObj.toString());
 			}
 
@@ -931,9 +928,9 @@ public class Activation implements Serializable {
 				} else {
 					result.Value.Value -= placeName.Weight * cuurentObj.Value.Value;
 				}
-	
+
 				this.Parent.Parent.LogThis(cuurentObj.toString());
-				
+
 			}
 
 		}
@@ -1135,7 +1132,7 @@ public class Activation implements Serializable {
 				String msg = placeName1.PlaceName + " * Weight (" + placeName1.Weight + ") ------>>>>>>>>>"
 						+ DF1.Value.toString() + placeName2.PlaceName + " * Weight (" + placeName2.Weight
 						+ ") ------>>>>>>>>>" + DF2.Value.toString();
-			
+
 				this.Parent.Parent.LogThis(msg);
 				ArrayList<FuzzyVectorValue> DF1Values = DF1.Value.Vector.GetNoneZeroValues();
 				ArrayList<FuzzyVectorValue> DF2Values = DF2.Value.Vector.GetNoneZeroValues();
@@ -1209,5 +1206,29 @@ public class Activation implements Serializable {
 			}
 		}
 	}
+
+	// BEGINNING of MODIFICATIONS
+	private void PopTaxiToQueue() throws CloneNotSupportedException { // added
+		Integer outputIndex = util.GetIndexByName(OutputPlaceName, Parent.Parent.PlaceList);
+		Integer inputQIndex = util.GetIndexByName(InputPlaceNames.get(0), Parent.Parent.PlaceList);
+		Integer inputTIndex = util.GetIndexByName(InputPlaceNames.get(1), Parent.TempMarking);
+		PetriObject tempT = Parent.TempMarking.get(inputTIndex);
+		PetriObject resultT = null;
+		if (tempT instanceof DataString) {
+			PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputQIndex)).GetValue())
+					.PopTaxi(((DataString) tempT));
+			PetriObject result = null;
+			if (temp == null)
+				return;
+			if (temp instanceof DataCar) {
+				result = (PetriObject) ((DataCar) temp).clone();
+			}
+			result.SetName(OutputPlaceName);
+			result.SetValue(temp.GetValue());
+			DataCarQueue out = (DataCarQueue) (Parent.Parent.PlaceList.get(outputIndex));
+			out.AddElement(result);
+		}
+	}
+	// END of MODIFICATIONS
 
 }
