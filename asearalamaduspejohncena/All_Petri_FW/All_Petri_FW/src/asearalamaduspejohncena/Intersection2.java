@@ -3,6 +3,8 @@ package asearalamaduspejohncena;
 import Components.*;
 import DataObjects.DataCar;
 import DataObjects.DataCarQueue;
+import DataObjects.DataTransfer;
+import DataOnly.TransferOperation;
 import Enumerations.LogicConnector;
 import Enumerations.TransitionCondition;
 import Enumerations.TransitionOperation;
@@ -40,6 +42,11 @@ public class Intersection2 {
         DataCar P_OE_12 = new DataCar();
         P_OE_12.SetName("P_OE_12");
         pn.PlaceList.add(P_OE_12);
+
+//        DataTransfer P_OE_12_LEAVE = new DataTransfer();
+//        P_OE_12_LEAVE.SetName("P_OE_12_LEAVE");
+//        P_OE_12_LEAVE.Value = new TransferOperation("localhost", "1083", "P_A_10");
+//        pn.PlaceList.add(P_OE_12_LEAVE);
 
         DataCar P_OE_13 = new DataCar();
         P_OE_13.SetName("P_OE_13");
@@ -424,10 +431,28 @@ public class Intersection2 {
         GuardMapping grdT_OE_12 = new GuardMapping();
         grdT_OE_12.condition = T_OE_12_CT1;
         grdT_OE_12.Activations.add(new Activation(T_OE_12, "P_O_12", TransitionOperation.PopElementWithoutTarget, "P_OE_12"));
+//        grdT_OE_12.Activations.add(new Activation(T_OE_12, "P_O_12", TransitionOperation.SendOverNetwork, "P_OE_12"));
+
         T_OE_12.GuardMappingList.add(grdT_OE_12);
 
         T_OE_12.Delay = 2;
         pn.Transitions.add(T_OE_12);
+
+        // TRIED TO CONNECT THE PETRIES ONE TO ANOTHER
+//        PetriTransition T_OE_12_LEAVE = new PetriTransition(pn);
+//        T_OE_12_LEAVE.TransitionName = "T_OE_12_LEAVE";
+//        T_OE_12_LEAVE.InputPlaceName.add("P_OE_12");
+//
+//        Condition T_OE_12_LEAVE_CT1 = new Condition(T_OE_12_LEAVE, "P_OE_12", TransitionCondition.HaveCar);
+//
+//        GuardMapping grdT_OE_12_LEAVE = new GuardMapping();
+//        grdT_OE_12_LEAVE.condition = T_OE_12_LEAVE_CT1;
+//
+//        grdT_OE_12_LEAVE.Activations.add(new Activation(T_OE_12_LEAVE, "P_OE_12", TransitionOperation.SendOverNetwork, "P_OE_12_LEAVE"));
+//        T_OE_12_LEAVE.GuardMappingList.add(grdT_OE_12_LEAVE);
+//
+//        T_OE_12_LEAVE.Delay = 0;
+//        pn.Transitions.add(T_OE_12_LEAVE);
 
         // LANE 4 EXiT
         PetriTransition T_O_13 = new PetriTransition(pn);

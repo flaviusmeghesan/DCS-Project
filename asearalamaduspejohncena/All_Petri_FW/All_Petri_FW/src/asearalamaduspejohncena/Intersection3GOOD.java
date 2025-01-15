@@ -16,9 +16,16 @@ public class Intersection3GOOD {
         pn.PetriNetName = "Main Petri";
         pn.NetworkPort = 1083;
 
-        DataCar P_A_10 = new DataCar();
+
+
+//        DataCar P_A_10 = new DataCar();
+//        P_A_10.SetName("P_A_10");
+//        pn.PlaceList.add(P_A_10);
+//
+        DataString P_A_10 = new DataString();
         P_A_10.SetName("P_A_10");
         pn.PlaceList.add(P_A_10);
+
 
         DataCar P_A_11 = new DataCar();
         P_A_11.SetName("P_A_11");
