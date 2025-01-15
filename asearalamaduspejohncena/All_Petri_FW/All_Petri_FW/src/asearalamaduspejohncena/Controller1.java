@@ -1,4 +1,4 @@
-package DCS_UVS;
+package asearalamaduspejohncena;
 
 import Components.*;
 import DataObjects.DataInteger;
@@ -14,7 +14,7 @@ public class Controller1 {
         PetriNet pn = new PetriNet();
         pn.PetriNetName = "Controller1";
         pn.SetName("Controller1");
-        pn.NetworkPort = 1081;
+        pn.NetworkPort = 1090;
 
         DataString ini = new DataString();
         ini.SetName("P_ini");
@@ -81,17 +81,17 @@ public class Controller1 {
 
         DataTransfer p8 = new DataTransfer();
         p8.SetName("OP_1");
-        p8.Value = new TransferOperation("localhost", "1080", "P_TL_1");
+        p8.Value = new TransferOperation("localhost", "1081", "P_TL_1");
         pn.PlaceList.add(p8);
 
         DataTransfer p9 = new DataTransfer();
         p9.SetName("OP_2");
-        p9.Value = new TransferOperation("localhost", "1080", "P_TL_2");
+        p9.Value = new TransferOperation("localhost", "1081", "P_TL_2");
         pn.PlaceList.add(p9);
 
         DataTransfer p10 = new DataTransfer();
         p10.SetName("OP_3");
-        p10.Value = new TransferOperation("localhost", "1080", "P_TL_3");
+        p10.Value = new TransferOperation("localhost", "1081", "P_TL_3");
         pn.PlaceList.add(p10);
 
         DataString in1 = new DataString();

@@ -20,7 +20,7 @@ public class ControllerPedestrian {
         PetriNet pn = new PetriNet();
         pn.PetriNetName = "Controller";
         pn.SetName("Controller");
-        pn.NetworkPort = 1081;
+        pn.NetworkPort = 1092;
 
         DataString UserReq = new DataString();
         UserReq.SetName("UserReq");
