@@ -1,4 +1,5 @@
-package DCS_UVS;
+package asearalamaduspejohncena;
+
 
 import Components.*;
 import DataObjects.DataCar;
@@ -434,7 +435,7 @@ public class Intersection1 {
 
         Condition T_U1_31_CT1 = new Condition(T_U1_3, "P_A1_3", TransitionCondition.NotNull);
         Condition T_U1_31_CT2 = new Condition(T_U1_3, "P_X1_3", TransitionCondition.CanAddCars);
-        Condition T_U1_31_CT3 = new Condition(T_U1_3, "P_X1_3", TransitionCondition.isPriorityCar);
+        Condition T_U1_31_CT3 = new Condition(T_U1_3, "P_X1_3", TransitionCondition.IsPriorityCar);
         T_U1_31_CT2.SetNextCondition(LogicConnector.AND,T_U1_31_CT3);
         T_U1_31_CT1.SetNextCondition(LogicConnector.AND,T_U1_31_CT2);
 
@@ -453,7 +454,7 @@ public class Intersection1 {
         T_S_3.TransitionName = "T_S_3";
         T_S_3.InputPlaceName.add("P_X1_3");
 
-        Condition T_S_3_CT1 = new Condition(T_S_3, "P_X1_3", TransitionCondition.isBus);
+        Condition T_S_3_CT1 = new Condition(T_S_3, "P_X1_3", TransitionCondition.IsBus);
         Condition T_S_3_CT2 = new Condition(T_S_3, "P_STATION_3", TransitionCondition.HaveCarForMe);
         T_S_3_CT1.SetNextCondition(LogicConnector.AND,T_S_3_CT2);
 

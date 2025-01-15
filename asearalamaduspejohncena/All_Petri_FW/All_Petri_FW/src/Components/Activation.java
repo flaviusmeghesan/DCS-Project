@@ -18,6 +18,7 @@ import DataObjects.DataFloat;
 import DataObjects.DataFloatFloat;
 import DataObjects.DataFuzzy;
 import DataObjects.DataInteger;
+import DataObjects.DataNetworkCommand;
 import DataObjects.DataREL;
 import DataObjects.DataRELQueue;
 import DataObjects.DataString;
@@ -177,8 +178,8 @@ public class Activation implements Serializable {
 		// ---------------------------------------------------------
 		if (Operation == TransitionOperation.FLRS)
 			FLRS_Fuzzy();
-		// Taxi Queue ----------------------------------------------
-		if (Operation == TransitionOperation.PopTaxiToQueue)
+
+		if (Operation == TransitionOperation.PopTaxiToQueue) // Added
 			PopTaxiToQueue();
 	}
 
@@ -495,7 +496,8 @@ public class Activation implements Serializable {
 	private void PopElementWithTarget() throws CloneNotSupportedException {
 		Integer outputIndex = util.GetIndexByName(OutputPlaceName, Parent.Parent.PlaceList);
 		Integer inputIndex = util.GetIndexByName(InputPlaceName, Parent.Parent.PlaceList);
-		PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputIndex)).GetValue()).PopCar(Parent.TransitionName);
+		PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputIndex)).GetValue())
+				.PopCar(Parent.TransitionName);
 
 		PetriObject result = null;
 
@@ -651,6 +653,10 @@ public class Activation implements Serializable {
 
 		if (temp instanceof DataFuzzy) {
 			result.SetValue((PetriObject) ((DataFuzzy) temp).clone());
+		}
+
+		if (temp instanceof DataNetworkCommand) {
+			result.SetValue((PetriObject) ((DataNetworkCommand) temp).clone());
 		}
 
 	}
@@ -1207,28 +1213,33 @@ public class Activation implements Serializable {
 		}
 	}
 
-	// BEGINNING of MODIFICATIONS
-	private void PopTaxiToQueue() throws CloneNotSupportedException { // added
+	//added
+	private void PopTaxiToQueue() throws CloneNotSupportedException {
 		Integer outputIndex = util.GetIndexByName(OutputPlaceName, Parent.Parent.PlaceList);
 		Integer inputQIndex = util.GetIndexByName(InputPlaceNames.get(0), Parent.Parent.PlaceList);
 		Integer inputTIndex = util.GetIndexByName(InputPlaceNames.get(1), Parent.TempMarking);
+
 		PetriObject tempT = Parent.TempMarking.get(inputTIndex);
 		PetriObject resultT = null;
+
 		if (tempT instanceof DataString) {
-			PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputQIndex)).GetValue())
-					.PopTaxi(((DataString) tempT));
+			PetriObject temp = ((CarQueue) ((DataCarQueue) Parent.Parent.PlaceList.get(inputQIndex)).GetValue()).PopTaxi(((DataString) tempT));
 			PetriObject result = null;
+
 			if (temp == null)
 				return;
+
 			if (temp instanceof DataCar) {
 				result = (PetriObject) ((DataCar) temp).clone();
 			}
+
 			result.SetName(OutputPlaceName);
 			result.SetValue(temp.GetValue());
+
 			DataCarQueue out = (DataCarQueue) (Parent.Parent.PlaceList.get(outputIndex));
+
 			out.AddElement(result);
 		}
 	}
-	// END of MODIFICATIONS
 
 }

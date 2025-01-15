@@ -324,12 +324,14 @@ public class Condition implements Serializable {
 					return true;
 				break;
 			}
-			// ---------------------Beginning of Modification-------------------------
-			case HavePriorityCar: { //added
+			//added
+			case HavePriorityCar: {
 				if (Value1 == null)
 					return false;
+
 				if (Value1.GetValue() == null)
 					return false;
+
 				if (Value1.GetType() == PetriObjectType.DataCarQueue) {
 					if (util.HavePriority(Parent, ((CarQueue) Value1.GetValue()).Cars)) {
 						return true;
@@ -337,11 +339,13 @@ public class Condition implements Serializable {
 				}
 				break;
 			}
-			case isPriorityCar: { //added
+			case IsPriorityCar: {
 				if (Value1 == null)
 					return false;
+
 				if (Value1.GetValue() == null)
 					return false;
+
 				if (Value1.GetType() == PetriObjectType.DataCar) {
 					if (util.IsPriority(Parent, ((DataCar)Value1))) {
 						return true;
@@ -349,12 +353,13 @@ public class Condition implements Serializable {
 				}
 				break;
 			}
-
-			case HaveBus: { //added
+			case HaveBus: {
 				if (Value1 == null)
 					return false;
+
 				if (Value1.GetValue() == null)
 					return false;
+
 				if (Value1.GetType() == PetriObjectType.DataCarQueue) {
 					if (util.HaveBus(Parent, ((CarQueue) Value1.GetValue()).Cars)) {
 						return true;
@@ -362,11 +367,13 @@ public class Condition implements Serializable {
 				}
 				break;
 			}
-			case isBus: { //added
+			case IsBus: {
 				if (Value1 == null)
 					return false;
+
 				if (Value1.GetValue() == null)
 					return false;
+
 				if (Value1.GetType() == PetriObjectType.DataCar) {
 					if (util.IsBus(Parent, ((DataCar)Value1))) {
 						return true;
@@ -374,12 +381,13 @@ public class Condition implements Serializable {
 				}
 				break;
 			}
-
-			case HaveTaxi: { //added
+			case HaveTaxi: {
 				if (Value1 == null)
 					return false;
+
 				if (Value1.GetValue() == null)
 					return false;
+
 				if (Value1.GetType() == PetriObjectType.DataCarQueue) {
 					if (util.HaveTaxi(Parent, ((CarQueue) Value1.GetValue()).Cars)) {
 						return true;
@@ -387,11 +395,13 @@ public class Condition implements Serializable {
 				}
 				break;
 			}
-			case isTaxi: { //added
+			case IsTaxi: {
 				if (Value1 == null)
 					return false;
+
 				if (Value1.GetValue() == null)
 					return false;
+
 				if (Value1.GetType() == PetriObjectType.DataCar) {
 					if (util.IsTaxi(Parent, ((DataCar)Value1))) {
 						return true;

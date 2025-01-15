@@ -2,17 +2,13 @@ package GUIs;
 
 import java.awt.EventQueue;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
+import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
 import DataObjects.DataCar;
 import DataOnly.Car;
 import Utilities.DataOverNetwork;
 
-import javax.swing.JTextPane;
-
-import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -23,7 +19,7 @@ import java.awt.event.ActionEvent;
 public class InputCar extends JFrame {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
@@ -49,7 +45,7 @@ public class InputCar extends JFrame {
 	 */
 	public InputCar() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 318, 278);
+		setBounds(100, 100, 318, 450);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -82,6 +78,20 @@ public class InputCar extends JFrame {
 		txtPlace.setBounds(10, 21, 285, 20);
 		contentPane.add(txtPlace);
 
+		//added
+		JCheckBox checkBoxIsTaxi = new JCheckBox("Is Taxi");
+		checkBoxIsTaxi.setBounds(10, 200, 100, 20);
+
+		JCheckBox checkBoxIsBus = new JCheckBox("Is Bus");
+		checkBoxIsBus.setBounds(10, 230, 100, 20);
+
+		JCheckBox checkBoxIsPriority = new JCheckBox("Is Priority");
+		checkBoxIsPriority.setBounds(10, 260, 150, 20);
+
+		contentPane.add(checkBoxIsTaxi);
+		contentPane.add(checkBoxIsBus);
+		contentPane.add(checkBoxIsPriority);
+
 		JButton btnSend = new JButton("Send");
 		btnSend.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -92,7 +102,14 @@ public class InputCar extends JFrame {
 					DataOverNetwork DataToSend = new DataOverNetwork();
 
 					DataCar temp = new DataCar();
-					Car c = new Car(txtModel.getText(), txtNumber.getText(), txtTarget.getText().split(","));
+					Car c = new Car(
+							txtModel.getText(),
+							txtNumber.getText(),
+							txtTarget.getText().split(","),
+							checkBoxIsTaxi.isSelected(),
+							checkBoxIsBus.isSelected(),
+							checkBoxIsPriority.isSelected()
+					);
 					temp.SetValue(c);
 					temp.SetName(txtPlace.getText());
 					DataToSend.petriObject = temp;
@@ -106,7 +123,7 @@ public class InputCar extends JFrame {
 				}
 			}
 		});
-		btnSend.setBounds(10, 192, 285, 44);
+		btnSend.setBounds(10, 300, 285, 44);
 		contentPane.add(btnSend);
 
 	}

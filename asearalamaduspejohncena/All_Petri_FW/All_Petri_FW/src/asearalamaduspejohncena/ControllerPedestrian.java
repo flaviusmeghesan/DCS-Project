@@ -1,4 +1,4 @@
-package DCS_UVS;
+package asearalamaduspejohncena;
 
 import Components.Activation;
 import Components.Condition;
@@ -14,16 +14,17 @@ import Enumerations.LogicConnector;
 import Enumerations.TransitionCondition;
 import Enumerations.TransitionOperation;
 
-public class PedsController {
+public class ControllerPedestrian {
+
     public static void main (String []args) {
         PetriNet pn = new PetriNet();
-        pn.PetriNetName = "ControllerPedestrians1";
-        pn.SetName("ControllerPedestrians1");
-        pn.NetworkPort = 1086;
+        pn.PetriNetName = "Controller";
+        pn.SetName("Controller");
+        pn.NetworkPort = 1081;
 
-        DataString UserReq1 = new DataString();
-        UserReq1.SetName("UserReq1");
-        pn.PlaceList.add(UserReq1);
+        DataString UserReq = new DataString();
+        UserReq.SetName("UserReq");
+        pn.PlaceList.add(UserReq);
 
         DataFloat P_ini = new DataFloat();
         //ini.Printable = false;
@@ -71,29 +72,28 @@ public class PedsController {
         pn.PlaceList.add(p5);
 
         DataTransfer p6 = new DataTransfer();
-        p6.SetName("P_TL1");
-        p6.Value = new TransferOperation("localhost", "1082" , "P_TL1");
+        p6.SetName("P_TL");
+        p6.Value = new TransferOperation("localhost", "1083" , "P_TL1");
         pn.PlaceList.add(p6);
 
         DataTransfer p7 = new DataTransfer();
-        p7.SetName("P_PTL1");
-        p7.Value = new TransferOperation("localhost", "1082" , "P_PTL1");
+        p7.SetName("P_PTL");
+        p7.Value = new TransferOperation("localhost", "1083" , "P_PTL");
         pn.PlaceList.add(p7);
 
 
         //----------------------------iniT------------------------------------
         PetriTransition iniT = new PetriTransition(pn);
         iniT.TransitionName = "iniT";
-        iniT.InputPlaceName.add("P_ini");
 
         Condition iniTCt1 = new Condition(iniT, "P_ini", TransitionCondition.NotNull);
 
         GuardMapping grdiniT = new GuardMapping();
         grdiniT.condition= iniTCt1;
 
-        grdiniT.Activations.add(new Activation(iniT, "green", TransitionOperation.SendOverNetwork, "P_TL1"));
-        grdiniT.Activations.add(new Activation(iniT, "red", TransitionOperation.SendOverNetwork, "P_PTL1"));
-//        grdiniT.Activations.add(new Activation(iniT, "", TransitionOperation.MakeNull, "P_ini"));
+        grdiniT.Activations.add(new Activation(iniT, "green", TransitionOperation.SendOverNetwork, "P_TL"));
+        grdiniT.Activations.add(new Activation(iniT, "red", TransitionOperation.SendOverNetwork, "P_PTL"));
+        grdiniT.Activations.add(new Activation(iniT, "", TransitionOperation.MakeNull, "P_ini"));
 
         iniT.GuardMappingList.add(grdiniT);
 
@@ -106,16 +106,16 @@ public class PedsController {
         PetriTransition t1 = new PetriTransition(pn);
         t1.TransitionName = "T1";
         t1.InputPlaceName.add("wait");
-        t1.InputPlaceName.add("UserReq1");
+        t1.InputPlaceName.add("UserReq");
 
         Condition T1Ct1 = new Condition(t1, "wait", TransitionCondition.NotNull);
-        Condition T1Ct2 = new Condition(t1, "UserReq1", TransitionCondition.NotNull);
+        Condition T1Ct2 = new Condition(t1, "UserReq", TransitionCondition.NotNull);
         T1Ct1.SetNextCondition(LogicConnector.AND, T1Ct2);
 
         GuardMapping grdT1 = new GuardMapping();
         grdT1.condition= T1Ct1;
         grdT1.Activations.add(new Activation(t1, "wait", TransitionOperation.Move, "yr"));
-        grdT1.Activations.add(new Activation(t1, "yellow", TransitionOperation.SendOverNetwork, "P_TL1"));
+        grdT1.Activations.add(new Activation(t1, "yellow", TransitionOperation.SendOverNetwork, "P_TL"));
         t1.GuardMappingList.add(grdT1);
 
         t1.Delay = 0;
@@ -132,8 +132,8 @@ public class PedsController {
         GuardMapping grdT2 = new GuardMapping();
         grdT2.condition= T2Ct1;
         grdT2.Activations.add(new Activation(t2, "yr", TransitionOperation.Move, "rg"));
-        grdT2.Activations.add(new Activation(t2, "red", TransitionOperation.SendOverNetwork, "P_TL1"));
-        grdT2.Activations.add(new Activation(t2, "green", TransitionOperation.SendOverNetwork, "P_PTL1"));
+        grdT2.Activations.add(new Activation(t2, "red", TransitionOperation.SendOverNetwork, "P_TL"));
+        grdT2.Activations.add(new Activation(t2, "green", TransitionOperation.SendOverNetwork, "P_PTL"));
 
         t2.GuardMappingList.add(grdT2);
 
@@ -153,7 +153,7 @@ public class PedsController {
         GuardMapping grdT3 = new GuardMapping();
         grdT3.condition= T3Ct1;
         grdT3.Activations.add(new Activation(t3, "rg", TransitionOperation.Move, "ry"));
-        grdT3.Activations.add(new Activation(t3, "yellow", TransitionOperation.SendOverNetwork, "P_PTL1"));
+        grdT3.Activations.add(new Activation(t3, "yellow", TransitionOperation.SendOverNetwork, "P_PTL"));
 
         t3.GuardMappingList.add(grdT3);
 
@@ -172,8 +172,8 @@ public class PedsController {
         GuardMapping grdT4 = new GuardMapping();
         grdT4.condition= T4Ct1;
         grdT4.Activations.add(new Activation(t4, "ry", TransitionOperation.Move, "gr"));
-        grdT4.Activations.add(new Activation(t4, "red", TransitionOperation.SendOverNetwork, "P_PTL1"));
-        grdT4.Activations.add(new Activation(t4, "green", TransitionOperation.SendOverNetwork, "P_TL1"));
+        grdT4.Activations.add(new Activation(t4, "red", TransitionOperation.SendOverNetwork, "P_PTL"));
+        grdT4.Activations.add(new Activation(t4, "green", TransitionOperation.SendOverNetwork, "P_TL"));
 
         t4.GuardMappingList.add(grdT4);
 
@@ -203,7 +203,7 @@ public class PedsController {
         // ----------------------------PN Start-------------------------------------------------
         // -------------------------------------------------------------------------------------
 
-        System.out.println("ControllerPedestrians1 started \n ------------------------------");
+        System.out.println("Controller started \n ------------------------------");
         pn.Delay = 2000;
         // pn.Start();
 
@@ -211,6 +211,9 @@ public class PedsController {
         frame.petriNet = pn;
         frame.setVisible(true);
 
-    }
 
+
+
+
+    }
 }
