@@ -278,11 +278,13 @@ public class Controller1 {
         t_f1.GuardMappingList.add(grdT_f1);
 
         // ------------------------guard 2----------------------------
+
         Condition T_f1Ct3 = new Condition(t_f1, "in1", TransitionCondition.NotNull);
-        T_f1Ct1.SetNextCondition(LogicConnector.AND, T_f1Ct3);
+        Condition T_f1Ct4 = new Condition(t_f1, "P_f1", TransitionCondition.NotNull);
+        T_f1Ct4.SetNextCondition(LogicConnector.AND, T_f1Ct3);
 
         GuardMapping grdT_f12 = new GuardMapping();
-        grdT_f12.condition = T_f1Ct1;
+        grdT_f12.condition = T_f1Ct4;
         grdT_f12.Activations.add(new Activation(t2, "Ten", TransitionOperation.DynamicDelay, ""));
         t_f1.GuardMappingList.add(grdT_f12);
 
@@ -308,10 +310,11 @@ public class Controller1 {
 
         // ------------------------guard 2----------------------------
         Condition T_f2Ct3 = new Condition(t_f2, "in2", TransitionCondition.NotNull);
-        T_f2Ct1.SetNextCondition(LogicConnector.AND, T_f2Ct3);
+        Condition T_f2Ct4 = new Condition(t_f2, "P_f2", TransitionCondition.NotNull);
+        T_f2Ct4.SetNextCondition(LogicConnector.AND, T_f2Ct3);
 
         GuardMapping grdT_f22 = new GuardMapping();
-        grdT_f22.condition = T_f2Ct1;
+        grdT_f22.condition = T_f2Ct4;
         grdT_f22.Activations.add(new Activation(t4, "Ten", TransitionOperation.DynamicDelay, ""));
         t_f2.GuardMappingList.add(grdT_f22);
 
@@ -336,11 +339,12 @@ public class Controller1 {
         t_f3.GuardMappingList.add(grdT_f3);
 
         // ------------------------guard 2----------------------------
-        Condition T_f3Ct3 = new Condition(t_f3, "in4", TransitionCondition.NotNull);
-        T_f3Ct1.SetNextCondition(LogicConnector.AND, T_f3Ct3);
+        Condition T_f32Ct3 = new Condition(t_f3, "in4", TransitionCondition.NotNull);
+        Condition T_f32Ct4 = new Condition(t_f3, "P_f3", TransitionCondition.NotNull);
+        T_f32Ct4.SetNextCondition(LogicConnector.AND, T_f32Ct3);
 
         GuardMapping grdT_f32 = new GuardMapping();
-        grdT_f32.condition = T_f3Ct1;
+        grdT_f32.condition = T_f32Ct4;
         grdT_f32.Activations.add(new Activation(t6, "Ten", TransitionOperation.DynamicDelay, ""));
         t_f3.GuardMappingList.add(grdT_f32);
 
