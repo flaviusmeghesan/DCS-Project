@@ -1,0 +1,112 @@
+####################  Controller Started  #####################
+Waiting For Commands over this port:1092
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(signal)  wait(Null)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(1.0)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 1 ________________________________________________________
+Controller ExecutionList []
+[T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+[T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+Controller ExecutionList [iniT Temp Marking [] Delay:0,T5 Temp Marking [gr(signal)] Delay:5]
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(Null)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 2 ________________________________________________________
+Controller ExecutionList [T5 Temp Marking [gr(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(Null)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 3 ________________________________________________________
+Controller ExecutionList [T5 Temp Marking [gr(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(Null)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 4 ________________________________________________________
+Controller ExecutionList [T5 Temp Marking [gr(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(Null)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 5 ________________________________________________________
+Controller ExecutionList [T5 Temp Marking [gr(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(Null)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 6 ________________________________________________________
+Controller ExecutionList [T5 Temp Marking [gr(signal)] Delay:5]
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 
+Controller ExecutionList [T5 Temp Marking [] Delay:5]
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 7 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 8 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 9 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 10 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 11 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 12 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 13 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 14 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 15 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 16 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 17 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 18 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 19 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 20 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Controller PlaceList [UserReq(Null)  yr(Null)  rg(Null)  ry(Null)  gr(Null)  wait(signal)  P_TL(localhost-1083-P_TL1)  P_PTL(localhost-1083-P_PTL)]
+Controller ConstantPlaceList [P_ini(Null)  red(red)  green(green)  yellow(yellow)]
+________________________________________ TICK 21 ________________________________________________________
+Controller ExecutionList []
+[iniT conditions are false] Delay:0 [T1 conditions are false] Delay:0 [T2 conditions are false] Delay:5 [T3 conditions are false] Delay:5 [T4 conditions are false] Delay:2 [T5 conditions are false] Delay:5 
+Paused....

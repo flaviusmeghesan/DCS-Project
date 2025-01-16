@@ -1,4 +1,4 @@
-package asearalamaduspejohncena.Int1;
+package asearalamaduspejohncena;
 
 import Components.*;
 import DataObjects.DataCar;
@@ -14,7 +14,7 @@ public class Intersection1 {
 	public static void main(String[] args) {
 		
 		PetriNet pn = new PetriNet();
-		pn.PetriNetName = "Lanes Intersection";
+		pn.PetriNetName = "Intersection 1";
 
 		pn.NetworkPort = 1081;
 		
@@ -941,7 +941,7 @@ public class Intersection1 {
 		// ----------------------------PNStart-------------------------------------------------
 		// -------------------------------------------------------------------------------------
 
-		System.out.println("Lanes_Intersection started \n ------------------------------");
+		System.out.println("Intersection 1 started \n ------------------------------");
 		pn.Delay = 2000;
 		// pn.Start();
 

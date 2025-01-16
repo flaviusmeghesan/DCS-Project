@@ -1,4 +1,4 @@
-package asearalamaduspejohncena.Int1;
+package asearalamaduspejohncena;
 
 import Components.*;
 import DataObjects.DataInteger;
@@ -13,7 +13,7 @@ public class Controller1 {
     public static void main(String[] args) {
 
         PetriNet pn = new PetriNet();
-        pn.PetriNetName = "Controller";
+        pn.PetriNetName = "Controller 1";
         pn.SetName("Controller");
         pn.NetworkPort =1090;
 
@@ -72,17 +72,17 @@ public class Controller1 {
         // Define output places
         DataTransfer p10 = new DataTransfer();
         p10.SetName("OP1");
-        p10.Value = new TransferOperation("localhost", "1080", "P_TL1");
+        p10.Value = new TransferOperation("localhost", "1081", "P_TL1");
         pn.PlaceList.add(p10);
 
         DataTransfer p11 = new DataTransfer();
         p11.SetName("OP2");
-        p11.Value = new TransferOperation("localhost", "1080", "P_TL2");
+        p11.Value = new TransferOperation("localhost", "1081", "P_TL2");
         pn.PlaceList.add(p11);
 
         DataTransfer p12 = new DataTransfer();
         p12.SetName("OP4");
-        p12.Value = new TransferOperation("localhost", "1080", "P_TL4");
+        p12.Value = new TransferOperation("localhost", "1081", "P_TL4");
         pn.PlaceList.add(p12);
 
         // adding new places for project 4
